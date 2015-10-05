@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 76f8b2cff295f5e41807106380fe4ca0
+timeCreated: 1441930013
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: CylGizmo001
+    100002: Gozu
+    100004: Hip
+    100006: Left IK Chain
+    100008: Left IK Limb
+    100010: Left_Arm_Bicep
+    100012: Left_Arm_Claw
+    100014: Left_Arm_Claw_Controller
+    100016: Left_Arm_Forearm
+    100018: Left_Arm_Shoulder
+    100020: Left_Leg_Ankle
+    100022: Left_Leg_Foot
+    100024: Left_Leg_Foot_Controller
+    100026: Left_Leg_Shin
+    100028: Left_Leg_Thigh
+    100030: //RootNode
+    100032: Neck Spline IK
+    100034: Particle View 001
+    100036: Right IK Chain
+    100038: Right IK Limb
+    100040: Right_Arm_Bicep001
+    100042: Right_Arm_Claw001
+    100044: Right_Arm_Claw_Controller001
+    100046: Right_Arm_Forearm001
+    100048: Right_Arm_Shoulder001
+    100050: Right_Leg_Ankle001
+    100052: Right_Leg_Foot001
+    100054: Right_Leg_Foot_Controller001
+    100056: Right_Leg_Shin001
+    100058: Right_Leg_Thigh001
+    100060: Spine_Base
+    100062: Spine_Head
+    100064: Spine_Head_Controller
+    100066: Spine_Neck
+    100068: Spine_Upper Back
+    400000: CylGizmo001
+    400002: Gozu
+    400004: Hip
+    400006: Left IK Chain
+    400008: Left IK Limb
+    400010: Left_Arm_Bicep
+    400012: Left_Arm_Claw
+    400014: Left_Arm_Claw_Controller
+    400016: Left_Arm_Forearm
+    400018: Left_Arm_Shoulder
+    400020: Left_Leg_Ankle
+    400022: Left_Leg_Foot
+    400024: Left_Leg_Foot_Controller
+    400026: Left_Leg_Shin
+    400028: Left_Leg_Thigh
+    400030: //RootNode
+    400032: Neck Spline IK
+    400034: Particle View 001
+    400036: Right IK Chain
+    400038: Right IK Limb
+    400040: Right_Arm_Bicep001
+    400042: Right_Arm_Claw001
+    400044: Right_Arm_Claw_Controller001
+    400046: Right_Arm_Forearm001
+    400048: Right_Arm_Shoulder001
+    400050: Right_Leg_Ankle001
+    400052: Right_Leg_Foot001
+    400054: Right_Leg_Foot_Controller001
+    400056: Right_Leg_Shin001
+    400058: Right_Leg_Thigh001
+    400060: Spine_Base
+    400062: Spine_Head
+    400064: Spine_Head_Controller
+    400066: Spine_Neck
+    400068: Spine_Upper Back
+    4300000: Gozu
+    7400000: Gozu_Idle
+    9500000: //RootNode
+    13700000: Gozu
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Gozu_Idle
+      takeName: LouieLimjap_GozuKaiju_RigForAnimation_Idle
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CylGizmo001
+        weight: 1
+      - path: CylGizmo001/Hip
+        weight: 1
+      - path: CylGizmo001/Hip/Left_Leg_Thigh
+        weight: 1
+      - path: CylGizmo001/Hip/Left_Leg_Thigh/Left_Leg_Shin
+        weight: 1
+      - path: CylGizmo001/Hip/Left_Leg_Thigh/Left_Leg_Shin/Left_Leg_Ankle
+        weight: 1
+      - path: CylGizmo001/Hip/Left_Leg_Thigh/Left_Leg_Shin/Left_Leg_Ankle/Left_Leg_Foot
+        weight: 1
+      - path: CylGizmo001/Hip/Left_Leg_Thigh/Left_Leg_Shin/Left_Leg_Ankle/Left_Leg_Foot/Left_Leg_Foot_Controller
+        weight: 1
+      - path: CylGizmo001/Hip/Right_Leg_Thigh001
+        weight: 1
+      - path: CylGizmo001/Hip/Right_Leg_Thigh001/Right_Leg_Shin001
+        weight: 1
+      - path: CylGizmo001/Hip/Right_Leg_Thigh001/Right_Leg_Shin001/Right_Leg_Ankle001
+        weight: 1
+      - path: CylGizmo001/Hip/Right_Leg_Thigh001/Right_Leg_Shin001/Right_Leg_Ankle001/Right_Leg_Foot001
+        weight: 1
+      - path: CylGizmo001/Hip/Right_Leg_Thigh001/Right_Leg_Shin001/Right_Leg_Ankle001/Right_Leg_Foot001/Right_Leg_Foot_Controller001
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Left_Arm_Shoulder
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Left_Arm_Shoulder/Left_Arm_Bicep
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Left_Arm_Shoulder/Left_Arm_Bicep/Left_Arm_Forearm
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Left_Arm_Shoulder/Left_Arm_Bicep/Left_Arm_Forearm/Left_Arm_Claw
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Left_Arm_Shoulder/Left_Arm_Bicep/Left_Arm_Forearm/Left_Arm_Claw/Left_Arm_Claw_Controller
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Right_Arm_Shoulder001
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Right_Arm_Shoulder001/Right_Arm_Bicep001
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Right_Arm_Shoulder001/Right_Arm_Bicep001/Right_Arm_Forearm001
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Right_Arm_Shoulder001/Right_Arm_Bicep001/Right_Arm_Forearm001/Right_Arm_Claw001
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Right_Arm_Shoulder001/Right_Arm_Bicep001/Right_Arm_Forearm001/Right_Arm_Claw001/Right_Arm_Claw_Controller001
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Spine_Head
+        weight: 1
+      - path: CylGizmo001/Hip/Spine_Base/Spine_Upper Back/Spine_Neck/Spine_Head/Spine_Head_Controller
+        weight: 1
+      - path: Gozu
+        weight: 1
+      - path: Left IK Chain
+        weight: 1
+      - path: Left IK Limb
+        weight: 1
+      - path: Neck Spline IK
+        weight: 1
+      - path: Particle View 001
+        weight: 1
+      - path: Right IK Chain
+        weight: 1
+      - path: Right IK Limb
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

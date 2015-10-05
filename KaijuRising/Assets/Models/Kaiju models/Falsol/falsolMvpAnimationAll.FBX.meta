@@ -1,0 +1,1464 @@
+fileFormatVersion: 2
+guid: bd0688b2be040ed47aca15d0710c4659
+timeCreated: 1442187414
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm L 01
+    100002: Arm L 02
+    100004: Arm L 03
+    100006: Arm R 01
+    100008: Arm R 02
+    100010: Arm R 03
+    100012: Bone  Tail 3
+    100014: Bone  Tail2
+    100016: Bone Tail 4
+    100018: Bone Tail Feather
+    100020: Bone Tail Feather01
+    100022: Bone Tail Feather02
+    100024: Bone Tail Feather03
+    100026: Bone Tail Feather04
+    100028: Bone Tail Feather05
+    100030: Bone Tail Feather06
+    100032: Bone Tail Feather07
+    100034: Bone Tail Feather08
+    100036: Bone Tail Feather09
+    100038: Bone Tail Feather10
+    100040: Bone Tail Feather100
+    100042: Bone Tail Feather11
+    100044: Bone Tail Feather12
+    100046: Bone Tail Feather13
+    100048: Bone Tail Feather14
+    100050: Bone Tail Feather15
+    100052: Bone Tail Feather16
+    100054: Bone Tail Feather17
+    100056: Bone Tail Feather18
+    100058: Bone Tail Feather19
+    100060: Bone Tail Feather20
+    100062: Bone Tail Feather21
+    100064: Bone Tail Feather22
+    100066: Bone Tail Feather23
+    100068: Bone Tail Feather24
+    100070: Bone Tail Feather25
+    100072: Bone Tail Feather26
+    100074: Bone Tail Feather27
+    100076: Bone Tail Feather28
+    100078: Bone Tail Feather29
+    100080: Bone Tail Feather30
+    100082: Bone Tail Feather31
+    100084: Bone Tail Feather32
+    100086: Bone Tail Feather33
+    100088: Bone Tail Feather34
+    100090: Bone Tail Feather35
+    100092: Bone Tail Feather36
+    100094: Bone Tail Feather37
+    100096: Bone Tail Feather38
+    100098: Bone Tail Feather39
+    100100: Bone Tail Feather40
+    100102: Bone Tail Feather41
+    100104: Bone Tail Feather42
+    100106: Bone Tail Feather43
+    100108: Bone Tail Feather44
+    100110: Bone Tail Feather45
+    100112: Bone Tail Feather46
+    100114: Bone Tail Feather47
+    100116: Bone Tail Feather48
+    100118: Bone Tail Feather49
+    100120: Bone Tail Feather50
+    100122: Bone Tail Feather51
+    100124: Bone Tail Feather52
+    100126: Bone Tail Feather53
+    100128: Bone Tail Feather54
+    100130: Bone Tail Feather55
+    100132: Bone Tail Feather56
+    100134: Bone Tail Feather57
+    100136: Bone Tail Feather58
+    100138: Bone Tail Feather59
+    100140: Bone Tail Feather60
+    100142: Bone Tail Feather61
+    100144: Bone Tail Feather62
+    100146: Bone Tail Feather63
+    100148: Bone Tail Feather64
+    100150: Bone Tail Feather65
+    100152: Bone Tail Feather66
+    100154: Bone Tail Feather67
+    100156: Bone Tail Feather68
+    100158: Bone Tail Feather69
+    100160: Bone Tail Feather70
+    100162: Bone Tail Feather71
+    100164: Bone Tail Feather72
+    100166: Bone Tail Feather73
+    100168: Bone Tail Feather74
+    100170: Bone Tail Feather75
+    100172: Bone Tail Feather76
+    100174: Bone Tail Feather77
+    100176: Bone Tail Feather78
+    100178: Bone Tail Feather79
+    100180: Bone Tail Feather80
+    100182: Bone Tail Feather81
+    100184: Bone Tail Feather82
+    100186: Bone Tail Feather83
+    100188: Bone Tail Feather84
+    100190: Bone Tail Feather85
+    100192: Bone Tail Feather86
+    100194: Bone Tail Feather87
+    100196: Bone Tail Feather88
+    100198: Bone Tail Feather89
+    100200: Bone Tail Feather90
+    100202: Bone Tail Feather91
+    100204: Bone Tail Feather92
+    100206: Bone Tail Feather93
+    100208: Bone Tail Feather94
+    100210: Bone Tail Feather95
+    100212: Bone Tail Feather96
+    100214: Bone Tail Feather97
+    100216: Bone Tail Feather98
+    100218: Bone Tail Feather99
+    100220: Bone Tail1
+    100222: Bone002
+    100224: Bone005
+    100226: Box002
+    100228: core
+    100230: //RootNode
+    100232: feather01
+    100234: feather02
+    100236: feather03
+    100238: feather04
+    100240: feather05
+    100242: feather06
+    100244: feather07
+    100246: feather08
+    100248: feather09
+    100250: feather10
+    100252: featherCenter
+    100254: IK Chain001
+    100256: IK Chain002
+    100258: IK Chain003
+    100260: IK Chain004
+    100262: IK Chain005
+    100264: Leg L 01
+    100266: Leg L 02
+    100268: Leg L 03
+    100270: Leg L 04
+    100272: Leg L 05
+    100274: Leg R 01
+    100276: Leg R 02
+    100278: Leg R 03
+    100280: Leg R 04
+    100282: Leg R 05
+    100284: mask
+    100286: Point001
+    100288: Point002
+    100290: Point003
+    100292: sholder L
+    100294: sholder R
+    100296: spine01
+    100298: spine02
+    100300: spine03
+    100302: spine04
+    100304: spine05__
+    100306: spine06
+    100308: spine07
+    100310: SplineIKNode001
+    400000: Arm L 01
+    400002: Arm L 02
+    400004: Arm L 03
+    400006: Arm R 01
+    400008: Arm R 02
+    400010: Arm R 03
+    400012: Bone  Tail 3
+    400014: Bone  Tail2
+    400016: Bone Tail 4
+    400018: Bone Tail Feather
+    400020: Bone Tail Feather01
+    400022: Bone Tail Feather02
+    400024: Bone Tail Feather03
+    400026: Bone Tail Feather04
+    400028: Bone Tail Feather05
+    400030: Bone Tail Feather06
+    400032: Bone Tail Feather07
+    400034: Bone Tail Feather08
+    400036: Bone Tail Feather09
+    400038: Bone Tail Feather10
+    400040: Bone Tail Feather100
+    400042: Bone Tail Feather11
+    400044: Bone Tail Feather12
+    400046: Bone Tail Feather13
+    400048: Bone Tail Feather14
+    400050: Bone Tail Feather15
+    400052: Bone Tail Feather16
+    400054: Bone Tail Feather17
+    400056: Bone Tail Feather18
+    400058: Bone Tail Feather19
+    400060: Bone Tail Feather20
+    400062: Bone Tail Feather21
+    400064: Bone Tail Feather22
+    400066: Bone Tail Feather23
+    400068: Bone Tail Feather24
+    400070: Bone Tail Feather25
+    400072: Bone Tail Feather26
+    400074: Bone Tail Feather27
+    400076: Bone Tail Feather28
+    400078: Bone Tail Feather29
+    400080: Bone Tail Feather30
+    400082: Bone Tail Feather31
+    400084: Bone Tail Feather32
+    400086: Bone Tail Feather33
+    400088: Bone Tail Feather34
+    400090: Bone Tail Feather35
+    400092: Bone Tail Feather36
+    400094: Bone Tail Feather37
+    400096: Bone Tail Feather38
+    400098: Bone Tail Feather39
+    400100: Bone Tail Feather40
+    400102: Bone Tail Feather41
+    400104: Bone Tail Feather42
+    400106: Bone Tail Feather43
+    400108: Bone Tail Feather44
+    400110: Bone Tail Feather45
+    400112: Bone Tail Feather46
+    400114: Bone Tail Feather47
+    400116: Bone Tail Feather48
+    400118: Bone Tail Feather49
+    400120: Bone Tail Feather50
+    400122: Bone Tail Feather51
+    400124: Bone Tail Feather52
+    400126: Bone Tail Feather53
+    400128: Bone Tail Feather54
+    400130: Bone Tail Feather55
+    400132: Bone Tail Feather56
+    400134: Bone Tail Feather57
+    400136: Bone Tail Feather58
+    400138: Bone Tail Feather59
+    400140: Bone Tail Feather60
+    400142: Bone Tail Feather61
+    400144: Bone Tail Feather62
+    400146: Bone Tail Feather63
+    400148: Bone Tail Feather64
+    400150: Bone Tail Feather65
+    400152: Bone Tail Feather66
+    400154: Bone Tail Feather67
+    400156: Bone Tail Feather68
+    400158: Bone Tail Feather69
+    400160: Bone Tail Feather70
+    400162: Bone Tail Feather71
+    400164: Bone Tail Feather72
+    400166: Bone Tail Feather73
+    400168: Bone Tail Feather74
+    400170: Bone Tail Feather75
+    400172: Bone Tail Feather76
+    400174: Bone Tail Feather77
+    400176: Bone Tail Feather78
+    400178: Bone Tail Feather79
+    400180: Bone Tail Feather80
+    400182: Bone Tail Feather81
+    400184: Bone Tail Feather82
+    400186: Bone Tail Feather83
+    400188: Bone Tail Feather84
+    400190: Bone Tail Feather85
+    400192: Bone Tail Feather86
+    400194: Bone Tail Feather87
+    400196: Bone Tail Feather88
+    400198: Bone Tail Feather89
+    400200: Bone Tail Feather90
+    400202: Bone Tail Feather91
+    400204: Bone Tail Feather92
+    400206: Bone Tail Feather93
+    400208: Bone Tail Feather94
+    400210: Bone Tail Feather95
+    400212: Bone Tail Feather96
+    400214: Bone Tail Feather97
+    400216: Bone Tail Feather98
+    400218: Bone Tail Feather99
+    400220: Bone Tail1
+    400222: Bone002
+    400224: Bone005
+    400226: Box002
+    400228: core
+    400230: //RootNode
+    400232: feather01
+    400234: feather02
+    400236: feather03
+    400238: feather04
+    400240: feather05
+    400242: feather06
+    400244: feather07
+    400246: feather08
+    400248: feather09
+    400250: feather10
+    400252: featherCenter
+    400254: IK Chain001
+    400256: IK Chain002
+    400258: IK Chain003
+    400260: IK Chain004
+    400262: IK Chain005
+    400264: Leg L 01
+    400266: Leg L 02
+    400268: Leg L 03
+    400270: Leg L 04
+    400272: Leg L 05
+    400274: Leg R 01
+    400276: Leg R 02
+    400278: Leg R 03
+    400280: Leg R 04
+    400282: Leg R 05
+    400284: mask
+    400286: Point001
+    400288: Point002
+    400290: Point003
+    400292: sholder L
+    400294: sholder R
+    400296: spine01
+    400298: spine02
+    400300: spine03
+    400302: spine04
+    400304: spine05__
+    400306: spine06
+    400308: spine07
+    400310: SplineIKNode001
+    4300000: Box002
+    4300002: feather07
+    4300004: feather01
+    4300006: feather09
+    4300008: feather10
+    4300010: feather08
+    4300012: featherCenter
+    4300014: feather06
+    4300016: feather03
+    4300018: feather02
+    4300020: feather04
+    4300022: feather05
+    4300024: mask
+    7400000: Falsol_AllAnims
+    7400002: Falsol_Special
+    7400004: Falsol_Primary
+    9500000: //RootNode
+    13700000: Box002
+    13700002: feather01
+    13700004: feather02
+    13700006: feather03
+    13700008: feather04
+    13700010: feather05
+    13700012: feather06
+    13700014: feather07
+    13700016: feather08
+    13700018: feather09
+    13700020: feather10
+    13700022: featherCenter
+    13700024: mask
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Falsol_AllAnims
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Tail Feather
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34/Bone Tail Feather36
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34/Bone Tail Feather36/Bone Tail
+          Feather37
+        weight: 1
+      - path: Bone Tail Feather24
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02/Bone Tail Feather05
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02/Bone Tail Feather05/Bone Tail
+          Feather04
+        weight: 1
+      - path: Bone Tail Feather25
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01/Bone Tail Feather42
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01/Bone Tail Feather42/Bone Tail
+          Feather43
+        weight: 1
+      - path: Bone Tail Feather26
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06/Bone Tail Feather08
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06/Bone Tail Feather08/Bone Tail
+          Feather09
+        weight: 1
+      - path: Bone Tail Feather27
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10/Bone Tail Feather12
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10/Bone Tail Feather12/Bone Tail
+          Feather13
+        weight: 1
+      - path: Bone Tail Feather28
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03/Bone Tail Feather11
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03/Bone Tail Feather11/Bone Tail
+          Feather35
+        weight: 1
+      - path: Bone Tail Feather29
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39/Bone Tail Feather40
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39/Bone Tail Feather40/Bone Tail
+          Feather38
+        weight: 1
+      - path: Bone Tail Feather30
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14/Bone Tail Feather16
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14/Bone Tail Feather16/Bone Tail
+          Feather17
+        weight: 1
+      - path: Bone Tail Feather31
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20/Bone Tail Feather19
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20/Bone Tail Feather19/Bone Tail
+          Feather18
+        weight: 1
+      - path: Bone Tail Feather32
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21/Bone Tail Feather15
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21/Bone Tail Feather15/Bone Tail
+          Feather41
+        weight: 1
+      - path: Bone Tail Feather33
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22/Bone Tail Feather07
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22/Bone Tail Feather07/Bone Tail
+          Feather23
+        weight: 1
+      - path: Bone Tail Feather44
+        weight: 1
+      - path: Bone Tail Feather45
+        weight: 1
+      - path: Bone Tail Feather46
+        weight: 1
+      - path: Bone Tail Feather47
+        weight: 1
+      - path: Bone Tail Feather48
+        weight: 1
+      - path: Bone Tail Feather49
+        weight: 1
+      - path: Bone Tail Feather50
+        weight: 1
+      - path: Bone Tail Feather51
+        weight: 1
+      - path: Bone Tail Feather52
+        weight: 1
+      - path: Bone Tail Feather53
+        weight: 1
+      - path: Bone Tail Feather55
+        weight: 1
+      - path: Bone Tail Feather59
+        weight: 1
+      - path: Bone Tail Feather63
+        weight: 1
+      - path: Bone Tail Feather70
+        weight: 1
+      - path: Bone Tail Feather71
+        weight: 1
+      - path: Bone Tail Feather75
+        weight: 1
+      - path: Bone Tail Feather83
+        weight: 1
+      - path: Bone Tail Feather85
+        weight: 1
+      - path: Bone Tail Feather92
+        weight: 1
+      - path: Bone Tail Feather93
+        weight: 1
+      - path: Bone Tail Feather100
+        weight: 1
+      - path: Bone Tail1
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather58
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather62
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather66
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather69
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather74
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather78
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather82
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather88
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather89
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather94
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather98
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather54
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather56
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather56/Bone Tail Feather57
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather60
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather60/Bone Tail Feather61
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather64
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather64/Bone Tail Feather65
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather67
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather67/Bone Tail Feather68
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather72
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather72/Bone Tail Feather73
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather76
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather76/Bone Tail Feather77
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather79
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather79/Bone Tail Feather80
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather84
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather84/Bone Tail Feather81
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather86
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather86/Bone Tail Feather87
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather91
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather91/Bone Tail Feather90
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather96
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather96/Bone Tail Feather95
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather99
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather99/Bone Tail Feather97
+        weight: 1
+      - path: Bone Tail1/Bone002
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: core
+        weight: 1
+      - path: core/Leg L 01
+        weight: 1
+      - path: core/Leg L 01/Leg L 02
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03/Leg L 04
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03/Leg L 04/Leg L 05
+        weight: 1
+      - path: core/Leg R 01
+        weight: 1
+      - path: core/Leg R 01/Leg R 02
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03/Leg R 04
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03/Leg R 04/Leg R 05
+        weight: 1
+      - path: core/Point001
+        weight: 1
+      - path: core/Point001/Point002
+        weight: 1
+      - path: core/Point001/Point002/Point003
+        weight: 1
+      - path: core/spine01
+        weight: 1
+      - path: core/spine01/spine02
+        weight: 1
+      - path: core/spine01/spine02/spine03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01/Arm L 02
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01/Arm L 02/Arm
+          L 03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01/Arm R 02
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01/Arm R 02/Arm
+          R 03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__/spine06
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__/spine06/spine07
+        weight: 1
+      - path: feather01
+        weight: 1
+      - path: feather02
+        weight: 1
+      - path: feather03
+        weight: 1
+      - path: feather04
+        weight: 1
+      - path: feather05
+        weight: 1
+      - path: feather06
+        weight: 1
+      - path: feather07
+        weight: 1
+      - path: feather08
+        weight: 1
+      - path: feather09
+        weight: 1
+      - path: feather10
+        weight: 1
+      - path: featherCenter
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK Chain005
+        weight: 1
+      - path: mask
+        weight: 1
+      - path: SplineIKNode001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Falsol_Special
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Tail Feather
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34/Bone Tail Feather36
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34/Bone Tail Feather36/Bone Tail
+          Feather37
+        weight: 1
+      - path: Bone Tail Feather24
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02/Bone Tail Feather05
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02/Bone Tail Feather05/Bone Tail
+          Feather04
+        weight: 1
+      - path: Bone Tail Feather25
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01/Bone Tail Feather42
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01/Bone Tail Feather42/Bone Tail
+          Feather43
+        weight: 1
+      - path: Bone Tail Feather26
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06/Bone Tail Feather08
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06/Bone Tail Feather08/Bone Tail
+          Feather09
+        weight: 1
+      - path: Bone Tail Feather27
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10/Bone Tail Feather12
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10/Bone Tail Feather12/Bone Tail
+          Feather13
+        weight: 1
+      - path: Bone Tail Feather28
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03/Bone Tail Feather11
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03/Bone Tail Feather11/Bone Tail
+          Feather35
+        weight: 1
+      - path: Bone Tail Feather29
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39/Bone Tail Feather40
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39/Bone Tail Feather40/Bone Tail
+          Feather38
+        weight: 1
+      - path: Bone Tail Feather30
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14/Bone Tail Feather16
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14/Bone Tail Feather16/Bone Tail
+          Feather17
+        weight: 1
+      - path: Bone Tail Feather31
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20/Bone Tail Feather19
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20/Bone Tail Feather19/Bone Tail
+          Feather18
+        weight: 1
+      - path: Bone Tail Feather32
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21/Bone Tail Feather15
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21/Bone Tail Feather15/Bone Tail
+          Feather41
+        weight: 1
+      - path: Bone Tail Feather33
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22/Bone Tail Feather07
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22/Bone Tail Feather07/Bone Tail
+          Feather23
+        weight: 1
+      - path: Bone Tail Feather44
+        weight: 1
+      - path: Bone Tail Feather45
+        weight: 1
+      - path: Bone Tail Feather46
+        weight: 1
+      - path: Bone Tail Feather47
+        weight: 1
+      - path: Bone Tail Feather48
+        weight: 1
+      - path: Bone Tail Feather49
+        weight: 1
+      - path: Bone Tail Feather50
+        weight: 1
+      - path: Bone Tail Feather51
+        weight: 1
+      - path: Bone Tail Feather52
+        weight: 1
+      - path: Bone Tail Feather53
+        weight: 1
+      - path: Bone Tail Feather55
+        weight: 1
+      - path: Bone Tail Feather59
+        weight: 1
+      - path: Bone Tail Feather63
+        weight: 1
+      - path: Bone Tail Feather70
+        weight: 1
+      - path: Bone Tail Feather71
+        weight: 1
+      - path: Bone Tail Feather75
+        weight: 1
+      - path: Bone Tail Feather83
+        weight: 1
+      - path: Bone Tail Feather85
+        weight: 1
+      - path: Bone Tail Feather92
+        weight: 1
+      - path: Bone Tail Feather93
+        weight: 1
+      - path: Bone Tail Feather100
+        weight: 1
+      - path: Bone Tail1
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather58
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather62
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather66
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather69
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather74
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather78
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather82
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather88
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather89
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather94
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather98
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather54
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather56
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather56/Bone Tail Feather57
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather60
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather60/Bone Tail Feather61
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather64
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather64/Bone Tail Feather65
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather67
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather67/Bone Tail Feather68
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather72
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather72/Bone Tail Feather73
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather76
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather76/Bone Tail Feather77
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather79
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather79/Bone Tail Feather80
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather84
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather84/Bone Tail Feather81
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather86
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather86/Bone Tail Feather87
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather91
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather91/Bone Tail Feather90
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather96
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather96/Bone Tail Feather95
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather99
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather99/Bone Tail Feather97
+        weight: 1
+      - path: Bone Tail1/Bone002
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: core
+        weight: 1
+      - path: core/Leg L 01
+        weight: 1
+      - path: core/Leg L 01/Leg L 02
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03/Leg L 04
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03/Leg L 04/Leg L 05
+        weight: 1
+      - path: core/Leg R 01
+        weight: 1
+      - path: core/Leg R 01/Leg R 02
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03/Leg R 04
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03/Leg R 04/Leg R 05
+        weight: 1
+      - path: core/Point001
+        weight: 1
+      - path: core/Point001/Point002
+        weight: 1
+      - path: core/Point001/Point002/Point003
+        weight: 1
+      - path: core/spine01
+        weight: 1
+      - path: core/spine01/spine02
+        weight: 1
+      - path: core/spine01/spine02/spine03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01/Arm L 02
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01/Arm L 02/Arm
+          L 03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01/Arm R 02
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01/Arm R 02/Arm
+          R 03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__/spine06
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__/spine06/spine07
+        weight: 1
+      - path: feather01
+        weight: 1
+      - path: feather02
+        weight: 1
+      - path: feather03
+        weight: 1
+      - path: feather04
+        weight: 1
+      - path: feather05
+        weight: 1
+      - path: feather06
+        weight: 1
+      - path: feather07
+        weight: 1
+      - path: feather08
+        weight: 1
+      - path: feather09
+        weight: 1
+      - path: feather10
+        weight: 1
+      - path: featherCenter
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK Chain005
+        weight: 1
+      - path: mask
+        weight: 1
+      - path: SplineIKNode001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Falsol_Primary
+      takeName: Take 001
+      firstFrame: 39
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone Tail Feather
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34/Bone Tail Feather36
+        weight: 1
+      - path: Bone Tail Feather/Bone Tail Feather34/Bone Tail Feather36/Bone Tail
+          Feather37
+        weight: 1
+      - path: Bone Tail Feather24
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02/Bone Tail Feather05
+        weight: 1
+      - path: Bone Tail Feather24/Bone Tail Feather02/Bone Tail Feather05/Bone Tail
+          Feather04
+        weight: 1
+      - path: Bone Tail Feather25
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01/Bone Tail Feather42
+        weight: 1
+      - path: Bone Tail Feather25/Bone Tail Feather01/Bone Tail Feather42/Bone Tail
+          Feather43
+        weight: 1
+      - path: Bone Tail Feather26
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06/Bone Tail Feather08
+        weight: 1
+      - path: Bone Tail Feather26/Bone Tail Feather06/Bone Tail Feather08/Bone Tail
+          Feather09
+        weight: 1
+      - path: Bone Tail Feather27
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10/Bone Tail Feather12
+        weight: 1
+      - path: Bone Tail Feather27/Bone Tail Feather10/Bone Tail Feather12/Bone Tail
+          Feather13
+        weight: 1
+      - path: Bone Tail Feather28
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03/Bone Tail Feather11
+        weight: 1
+      - path: Bone Tail Feather28/Bone Tail Feather03/Bone Tail Feather11/Bone Tail
+          Feather35
+        weight: 1
+      - path: Bone Tail Feather29
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39/Bone Tail Feather40
+        weight: 1
+      - path: Bone Tail Feather29/Bone Tail Feather39/Bone Tail Feather40/Bone Tail
+          Feather38
+        weight: 1
+      - path: Bone Tail Feather30
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14/Bone Tail Feather16
+        weight: 1
+      - path: Bone Tail Feather30/Bone Tail Feather14/Bone Tail Feather16/Bone Tail
+          Feather17
+        weight: 1
+      - path: Bone Tail Feather31
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20/Bone Tail Feather19
+        weight: 1
+      - path: Bone Tail Feather31/Bone Tail Feather20/Bone Tail Feather19/Bone Tail
+          Feather18
+        weight: 1
+      - path: Bone Tail Feather32
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21/Bone Tail Feather15
+        weight: 1
+      - path: Bone Tail Feather32/Bone Tail Feather21/Bone Tail Feather15/Bone Tail
+          Feather41
+        weight: 1
+      - path: Bone Tail Feather33
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22/Bone Tail Feather07
+        weight: 1
+      - path: Bone Tail Feather33/Bone Tail Feather22/Bone Tail Feather07/Bone Tail
+          Feather23
+        weight: 1
+      - path: Bone Tail Feather44
+        weight: 1
+      - path: Bone Tail Feather45
+        weight: 1
+      - path: Bone Tail Feather46
+        weight: 1
+      - path: Bone Tail Feather47
+        weight: 1
+      - path: Bone Tail Feather48
+        weight: 1
+      - path: Bone Tail Feather49
+        weight: 1
+      - path: Bone Tail Feather50
+        weight: 1
+      - path: Bone Tail Feather51
+        weight: 1
+      - path: Bone Tail Feather52
+        weight: 1
+      - path: Bone Tail Feather53
+        weight: 1
+      - path: Bone Tail Feather55
+        weight: 1
+      - path: Bone Tail Feather59
+        weight: 1
+      - path: Bone Tail Feather63
+        weight: 1
+      - path: Bone Tail Feather70
+        weight: 1
+      - path: Bone Tail Feather71
+        weight: 1
+      - path: Bone Tail Feather75
+        weight: 1
+      - path: Bone Tail Feather83
+        weight: 1
+      - path: Bone Tail Feather85
+        weight: 1
+      - path: Bone Tail Feather92
+        weight: 1
+      - path: Bone Tail Feather93
+        weight: 1
+      - path: Bone Tail Feather100
+        weight: 1
+      - path: Bone Tail1
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather58
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather62
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather66
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather69
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather74
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather78
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather82
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather88
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather89
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather94
+        weight: 1
+      - path: Bone Tail1/Bone  Tail2/Bone  Tail 3/Bone Tail 4/Bone005/Bone Tail Feather98
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather54
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather56
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather56/Bone Tail Feather57
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather60
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather60/Bone Tail Feather61
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather64
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather64/Bone Tail Feather65
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather67
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather67/Bone Tail Feather68
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather72
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather72/Bone Tail Feather73
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather76
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather76/Bone Tail Feather77
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather79
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather79/Bone Tail Feather80
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather84
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather84/Bone Tail Feather81
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather86
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather86/Bone Tail Feather87
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather91
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather91/Bone Tail Feather90
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather96
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather96/Bone Tail Feather95
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather99
+        weight: 1
+      - path: Bone Tail1/Bone Tail Feather99/Bone Tail Feather97
+        weight: 1
+      - path: Bone Tail1/Bone002
+        weight: 1
+      - path: Box002
+        weight: 1
+      - path: core
+        weight: 1
+      - path: core/Leg L 01
+        weight: 1
+      - path: core/Leg L 01/Leg L 02
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03/Leg L 04
+        weight: 1
+      - path: core/Leg L 01/Leg L 02/Leg L 03/Leg L 04/Leg L 05
+        weight: 1
+      - path: core/Leg R 01
+        weight: 1
+      - path: core/Leg R 01/Leg R 02
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03/Leg R 04
+        weight: 1
+      - path: core/Leg R 01/Leg R 02/Leg R 03/Leg R 04/Leg R 05
+        weight: 1
+      - path: core/Point001
+        weight: 1
+      - path: core/Point001/Point002
+        weight: 1
+      - path: core/Point001/Point002/Point003
+        weight: 1
+      - path: core/spine01
+        weight: 1
+      - path: core/spine01/spine02
+        weight: 1
+      - path: core/spine01/spine02/spine03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01/Arm L 02
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder L/Arm L 01/Arm L 02/Arm
+          L 03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01/Arm R 02
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/sholder R/Arm R 01/Arm R 02/Arm
+          R 03
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__/spine06
+        weight: 1
+      - path: core/spine01/spine02/spine03/spine04/spine05__/spine06/spine07
+        weight: 1
+      - path: feather01
+        weight: 1
+      - path: feather02
+        weight: 1
+      - path: feather03
+        weight: 1
+      - path: feather04
+        weight: 1
+      - path: feather05
+        weight: 1
+      - path: feather06
+        weight: 1
+      - path: feather07
+        weight: 1
+      - path: feather08
+        weight: 1
+      - path: feather09
+        weight: 1
+      - path: feather10
+        weight: 1
+      - path: featherCenter
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: IK Chain003
+        weight: 1
+      - path: IK Chain004
+        weight: 1
+      - path: IK Chain005
+        weight: 1
+      - path: mask
+        weight: 1
+      - path: SplineIKNode001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
