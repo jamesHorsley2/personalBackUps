@@ -8,9 +8,20 @@ public struct KaijuKeybinds
         primaryAttackKey, specialAttackKey;
 }
 
+public enum MOVEMENT_CHANGE
+{
+	NORMAL_MOVEMENT,
+	SPECIAL_MOVEMENT
+};
+
 public class KeyboardKaijuController : KaijuController 
 {
     public KaijuKeybinds controls;
+	public delegate void currentControls();
+	public static event currentControls changeControls;
+	public MOVEMENT_CHANGE changeMovement;
+	
+
     private void checkControls()
     {
         if(Input.GetKey(controls.walkKey))
@@ -49,6 +60,19 @@ public class KeyboardKaijuController : KaijuController
         }
     }
 
+	private void changeMovementState()
+	{
+		//disables movement besides turning
+		if (Input.GetKey(controls.leftTurnKey))
+		{
+			turnFunction(-1);
+		}
+		else if (Input.GetKey(controls.rightTurnKey))
+		{
+			turnFunction(1);
+		}
+	}
+
 	// Use this for initialization
 	void Start () {
 	
@@ -56,6 +80,17 @@ public class KeyboardKaijuController : KaijuController
 	
 	// Update is called once per frame
 	void Update () {
-        checkControls();
+
+		switch(changeMovement)
+		{
+			case MOVEMENT_CHANGE.NORMAL_MOVEMENT:
+				changeControls = checkControls;
+				break;
+			case MOVEMENT_CHANGE.SPECIAL_MOVEMENT: 
+				changeControls = changeMovementState;
+				//changeControls();
+				break;
+		}
+		changeControls();
 	}
 }

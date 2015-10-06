@@ -10,9 +10,6 @@ public abstract class KaijuController : NetworkBehaviour {
 	public attackType attackSet;
 	public float primaryAttackSpeed, specialAttackSpeed;
 
-	public delegate void attackCondition();
-	public static event attackCondition specialKaijuType;
-
 	void Awake()
 	{
 		attackSet = GetComponent<attackType>();

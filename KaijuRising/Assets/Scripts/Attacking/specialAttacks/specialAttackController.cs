@@ -17,7 +17,8 @@ public class specialAttackController : MonoBehaviour {
 	public Rigidbody aoeAttack;
 	public KAIJU_SPECIAL_ATTACK specialState;
 	public GameObject aoe;
-		
+
+	/*
 	private void Update()
 	{
 		if(Input.GetKey(KeyCode.W))
@@ -26,6 +27,7 @@ public class specialAttackController : MonoBehaviour {
 		}
 		//determinState();
 	}
+	*/
 
 
 	private void determinState()
@@ -104,7 +106,7 @@ public class specialAttackController : MonoBehaviour {
 
 	private void selectFunction()
 	{
-		KaijuController.specialKaijuType += activateAOE;
+		//KaijuController.specialKaijuType += activateAOE;
 	}
 
 	public void activateAOE()
