@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Kaiju/KeyboardKaijuController.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Kaiju\DamageableEntity.cs">
     <Files>
-      <File FileName="Assets/Scripts/Attacking/specialAttacks/AttackMode.cs" Line="9" Column="3" />
-      <File FileName="Assets/Scripts/Kaiju/KaijuController.cs" Line="11" Column="54" />
-      <File FileName="Assets/Scripts/Kaiju/KeyboardKaijuController.cs" Line="91" Column="7" />
-      <File FileName="Assets/Scripts/Attacking/specialAttacks/specialAttackController.cs" Line="30" Column="4" />
+      <File FileName="Assets\Scripts\Kaiju\DamageableEntity.cs" Line="17" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
