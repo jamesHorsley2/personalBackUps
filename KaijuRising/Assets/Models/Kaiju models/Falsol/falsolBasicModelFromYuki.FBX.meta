@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 115b12a39f2149f4bb3b5771376fb60a
+timeCreated: 1442187483
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: decoration01
+    100002: decoration02
+    100004: decoration03
+    100006: decoration04
+    100008: decoration05
+    100010: decoration06
+    100012: //RootNode
+    100014: hair
+    100016: hair005
+    100018: hair006
+    100020: hair007
+    100022: hair008
+    100024: hair009
+    100026: hair010
+    100028: hair011
+    100030: hair012
+    100032: hair013
+    100034: hair014
+    100036: hair015
+    100038: hair016
+    100040: hair017
+    100042: hair018
+    100044: mask
+    100046: small_feather07
+    400000: decoration01
+    400002: decoration02
+    400004: decoration03
+    400006: decoration04
+    400008: decoration05
+    400010: decoration06
+    400012: //RootNode
+    400014: hair
+    400016: hair005
+    400018: hair006
+    400020: hair007
+    400022: hair008
+    400024: hair009
+    400026: hair010
+    400028: hair011
+    400030: hair012
+    400032: hair013
+    400034: hair014
+    400036: hair015
+    400038: hair016
+    400040: hair017
+    400042: hair018
+    400044: mask
+    400046: small_feather07
+    2300000: decoration01
+    2300002: decoration02
+    2300004: decoration03
+    2300006: decoration04
+    2300008: decoration05
+    2300010: decoration06
+    2300012: //RootNode
+    2300014: hair
+    2300016: hair005
+    2300018: hair006
+    2300020: hair007
+    2300022: hair008
+    2300024: hair009
+    2300026: hair010
+    2300028: hair011
+    2300030: hair012
+    2300032: hair013
+    2300034: hair014
+    2300036: hair015
+    2300038: hair016
+    2300040: hair017
+    2300042: hair018
+    2300044: mask
+    2300046: small_feather07
+    3300000: decoration01
+    3300002: decoration02
+    3300004: decoration03
+    3300006: decoration04
+    3300008: decoration05
+    3300010: decoration06
+    3300012: //RootNode
+    3300014: hair
+    3300016: hair005
+    3300018: hair006
+    3300020: hair007
+    3300022: hair008
+    3300024: hair009
+    3300026: hair010
+    3300028: hair011
+    3300030: hair012
+    3300032: hair013
+    3300034: hair014
+    3300036: hair015
+    3300038: hair016
+    3300040: hair017
+    3300042: hair018
+    3300044: mask
+    3300046: small_feather07
+    4300000: Box002
+    4300002: mask
+    4300004: hair
+    4300006: hair015
+    4300008: hair016
+    4300010: hair017
+    4300012: hair018
+    4300014: decoration04
+    4300016: decoration05
+    4300018: decoration06
+    4300020: decoration01
+    4300022: decoration02
+    4300024: decoration03
+    4300026: hair005
+    4300028: hair010
+    4300030: hair009
+    4300032: hair014
+    4300034: hair012
+    4300036: hair006
+    4300038: hair008
+    4300040: hair007
+    4300042: hair011
+    4300044: hair013
+    4300046: small_feather07
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 3f63b2daa2b746745a68223b1c7223d5
+timeCreated: 1442187411
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Anim_Global01
+    100002: Bn_Back01
+    100004: Bn_Chest01
+    100006: Bn_Head01
+    100008: Bn_L_Ankle01
+    100010: Bn_L_Clavical01
+    100012: Bn_L_FingerA01
+    100014: Bn_L_FingerA02
+    100016: Bn_L_FingerB01
+    100018: Bn_L_FingerB02
+    100020: Bn_L_FingerC01
+    100022: Bn_L_FingerC02
+    100024: Bn_L_Foot01
+    100026: Bn_L_Forearm01
+    100028: Bn_L_Shin01
+    100030: Bn_L_Shoulder01
+    100032: Bn_L_Thigh01
+    100034: Bn_L_ThumbA01
+    100036: Bn_L_ThumbB01
+    100038: Bn_L_ThumbC01
+    100040: Bn_L_Wrist01
+    100042: Bn_Neck01
+    100044: Bn_Pelvis01
+    100046: Bn_R_Ankle01
+    100048: Bn_R_Clavical01
+    100050: Bn_R_FingerA01
+    100052: Bn_R_FingerA02
+    100054: Bn_R_FingerB01
+    100056: Bn_R_FingerB02
+    100058: Bn_R_FingerC01
+    100060: Bn_R_FingerC02
+    100062: Bn_R_Foot01
+    100064: Bn_R_Forearm01
+    100066: Bn_R_Shin01
+    100068: Bn_R_Shoulder01
+    100070: Bn_R_Thigh01
+    100072: Bn_R_ThumbA01
+    100074: Bn_R_ThumbB01
+    100076: Bn_R_ThumbC01
+    100078: Bn_R_Wrist01
+    100080: Bn_Root01
+    100082: IK Chain001
+    100084: IK Chain002
+    100086: Knee_L_Helper
+    100088: Knee_R_Helper
+    100090: RoadKillOut
+    100092: //RootNode
+    400000: Anim_Global01
+    400002: Bn_Back01
+    400004: Bn_Chest01
+    400006: Bn_Head01
+    400008: Bn_L_Ankle01
+    400010: Bn_L_Clavical01
+    400012: Bn_L_FingerA01
+    400014: Bn_L_FingerA02
+    400016: Bn_L_FingerB01
+    400018: Bn_L_FingerB02
+    400020: Bn_L_FingerC01
+    400022: Bn_L_FingerC02
+    400024: Bn_L_Foot01
+    400026: Bn_L_Forearm01
+    400028: Bn_L_Shin01
+    400030: Bn_L_Shoulder01
+    400032: Bn_L_Thigh01
+    400034: Bn_L_ThumbA01
+    400036: Bn_L_ThumbB01
+    400038: Bn_L_ThumbC01
+    400040: Bn_L_Wrist01
+    400042: Bn_Neck01
+    400044: Bn_Pelvis01
+    400046: Bn_R_Ankle01
+    400048: Bn_R_Clavical01
+    400050: Bn_R_FingerA01
+    400052: Bn_R_FingerA02
+    400054: Bn_R_FingerB01
+    400056: Bn_R_FingerB02
+    400058: Bn_R_FingerC01
+    400060: Bn_R_FingerC02
+    400062: Bn_R_Foot01
+    400064: Bn_R_Forearm01
+    400066: Bn_R_Shin01
+    400068: Bn_R_Shoulder01
+    400070: Bn_R_Thigh01
+    400072: Bn_R_ThumbA01
+    400074: Bn_R_ThumbB01
+    400076: Bn_R_ThumbC01
+    400078: Bn_R_Wrist01
+    400080: Bn_Root01
+    400082: IK Chain001
+    400084: IK Chain002
+    400086: Knee_L_Helper
+    400088: Knee_R_Helper
+    400090: RoadKillOut
+    400092: //RootNode
+    4300000: RoadKillOut
+    7400000: Kemono_Walk
+    9500000: //RootNode
+    13700000: RoadKillOut
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Kemono_Walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Anim_Global01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_FingerA01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_FingerA01/Bn_L_FingerA02
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_FingerB01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_FingerB01/Bn_L_FingerB02
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_FingerC01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_FingerC01/Bn_L_FingerC02
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_ThumbA01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_ThumbA01/Bn_L_ThumbB01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_L_Clavical01/Bn_L_Shoulder01/Bn_L_Forearm01/Bn_L_Wrist01/Bn_L_ThumbA01/Bn_L_ThumbB01/Bn_L_ThumbC01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_Neck01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_Neck01/Bn_Head01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_FingerA01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_FingerA01/Bn_R_FingerA02
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_FingerB01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_FingerB01/Bn_R_FingerB02
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_FingerC01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_FingerC01/Bn_R_FingerC02
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_ThumbA01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_ThumbA01/Bn_R_ThumbB01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Back01/Bn_Chest01/Bn_R_Clavical01/Bn_R_Shoulder01/Bn_R_Forearm01/Bn_R_Wrist01/Bn_R_ThumbA01/Bn_R_ThumbB01/Bn_R_ThumbC01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01/Bn_L_Thigh01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01/Bn_L_Thigh01/Bn_L_Shin01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01/Bn_L_Thigh01/Bn_L_Shin01/Bn_L_Ankle01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01/Bn_L_Thigh01/Bn_L_Shin01/Bn_L_Ankle01/Bn_L_Foot01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01/Bn_R_Thigh01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01/Bn_R_Thigh01/Bn_R_Shin01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01/Bn_R_Thigh01/Bn_R_Shin01/Bn_R_Ankle01
+        weight: 1
+      - path: Anim_Global01/Bn_Root01/Bn_Pelvis01/Bn_R_Thigh01/Bn_R_Shin01/Bn_R_Ankle01/Bn_R_Foot01
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      - path: Knee_L_Helper
+        weight: 1
+      - path: Knee_R_Helper
+        weight: 1
+      - path: RoadKillOut
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
