@@ -11,7 +11,7 @@ public class Speedboost : AbstractPickup {
 
 	public override void activatePickup (GameObject target)
 	{
-		target.GetComponent<KaijuMover>().speed += 0.5f;
+		target.GetComponent<JoystickMovement>().speed += 0.5f;
 		Destroy (gameObject);
 		NetworkServer.Destroy (gameObject);
 	}

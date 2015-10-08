@@ -18,16 +18,16 @@ public class specialAttackController : MonoBehaviour {
 	public KAIJU_SPECIAL_ATTACK specialState;
 	public GameObject aoe;
 
-	/*
+
 	private void Update()
 	{
-		if(Input.GetKey(KeyCode.W))
+		if(Input.GetKeyDown(KeyCode.Space))
 		{
 			Instantiate(aoe,transform.position, Quaternion.identity);
 		}
 		//determinState();
 	}
-	*/
+
 
 
 	private void determinState()

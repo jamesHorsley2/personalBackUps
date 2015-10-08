@@ -1,7 +1,7 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerJump : AbstractMoverOLD {
+public class PlayerJump : AbstractMover {
 
 	public KeyCode jumpKey = KeyCode.Space;
 
