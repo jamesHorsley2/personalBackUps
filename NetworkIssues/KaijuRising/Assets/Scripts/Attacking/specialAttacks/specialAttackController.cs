@@ -18,25 +18,26 @@ public class specialAttackController : NetworkBehaviour{
 	public Rigidbody aoeAttack;
 	public KAIJU_SPECIAL_ATTACK specialState;
 	public GameObject[] aoe;
+	public bool SpawnObjectTest;
 
 
 	private void Update()
 	{
-		if(isLocalPlayer)
-		{
 			if(Input.GetKeyDown(KeyCode.Space))
 			{
-				Cmd_practiceSpawn();
+				if(isLocalPlayer)
+				{
+					Cmd_practiceSpawn();
+				}
 			//	NetworkServer.Spawn (spawedAttack);
 			}
-		}
 		//determinState();
 	}
 
 	[Command]
 	private void Cmd_practiceSpawn()
 	{
-		GameObject go = Instantiate (Instantiate(aoe[0].gameObject,transform.position, Quaternion.identity) as GameObject);
+		GameObject go = Instantiate(aoe[0].gameObject,transform.position, Quaternion.identity) as GameObject;
 		NetworkServer.Spawn (go);
 	}
 

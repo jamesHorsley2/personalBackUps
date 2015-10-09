@@ -61,6 +61,7 @@ public class addStuffToBuildings : MonoBehaviour {
 		findAllBuildings = GameObject.FindObjectsOfType<DestroyBuilding>() as DestroyBuilding[];
 		for(int z=0; z<findAllBuildings.Length; z++)
 		{
+			//findAllBuildings[z].name = "Building";
 			findAllBuildings[z].tag = "Building";
 		}
 		checkForFakeBuildings = GameObject.FindGameObjectsWithTag(buildingTag);
