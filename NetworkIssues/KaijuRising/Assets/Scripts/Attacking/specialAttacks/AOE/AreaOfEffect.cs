@@ -9,10 +9,7 @@ public class AreaOfEffect : NetworkBehaviour {
 
 	private void Update()
 	{
-		if(!isLocalPlayer)
-		{
-			Cmd_activateAttack();
-		}
+		activateAttack();
 	}
 
 	private void Start()
@@ -20,11 +17,10 @@ public class AreaOfEffect : NetworkBehaviour {
 		transform.localScale = new Vector3(radius,1f,radius);
 	}
 
-	[Command]
-	private void Cmd_activateAttack()
+	private void activateAttack()
 	{
 		storePlayers(transform.position, radius);
-		NetworkServer.Destroy(gameObject);
+		//NetworkServer.Destroy(gameObject);
 		//Destroy(gameObject);
 
 	}
