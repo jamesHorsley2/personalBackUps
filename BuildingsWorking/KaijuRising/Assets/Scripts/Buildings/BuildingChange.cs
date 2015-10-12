@@ -8,66 +8,56 @@ public enum BUILDING_TYPE
 	aqaduct
 };
 
-[System.Serializable]
-public struct buildingMeshs
-{
-	public Material[] smallest, average, largest, aqaductMesh;
-}
-
 public class BuildingChange : MonoBehaviour {
+
+	public Material[] newMesh;
+	private BUILDING_TYPE differentBuilding;
+	private int amountOfStates = 4;
+
+
+	[HideInInspector]
+	public Entity grabingBuildingInfo;
+	[HideInInspector]
+	public float highest,average,lowest;
 	[HideInInspector]
 	public Material[] materialSelected;
-	public string[] buildingTags;
-
-	private BUILDING_TYPE differentBuilding;
-	public int amountOfStates;
-	public buildingMeshs newBuildingTexture;
 
 	private void Start()
 	{
 		materialSelected = new Material[4];
-		selector(findBuildingType(differentBuilding));
+		selector(findBuildingType(differentBuilding, gameObject.tag));
+		grabingBuildingInfo = GetComponent<Entity>();
 	}
 
 	private void selector(BUILDING_TYPE findBuilding)
 	{
 		for(int i=0; i< amountOfStates; i++)
 		{
-			switch (findBuilding)
-			{
-			case BUILDING_TYPE.small:
-				materialSelected[i] = newBuildingTexture.smallest[i];
-				break;
-			case BUILDING_TYPE.medium:
-				materialSelected[i] = newBuildingTexture.average[i];
-				break;
-			case BUILDING_TYPE.large:
-				materialSelected[i] = newBuildingTexture.largest[i];
-				break;
-			case BUILDING_TYPE.aqaduct:
-				materialSelected[i] = newBuildingTexture.aqaductMesh[i];
-				break;
-			}
+			materialSelected[i] = newMesh[i];
 		}
 	}
 	
-	private BUILDING_TYPE findBuildingType(BUILDING_TYPE buildingChanged)
+	private BUILDING_TYPE findBuildingType(BUILDING_TYPE buildingChanged, string checkingEntity)
 	{
-		if(gameObject.tag == buildingTags[0])
+		switch(checkingEntity)
 		{
-			return BUILDING_TYPE.small;
-		}
-		if(gameObject.tag == buildingTags[1])
-		{
-			return BUILDING_TYPE.medium;
-		}
-		if(gameObject.tag == buildingTags[2])
-		{
-			return BUILDING_TYPE.large;
-		}
-		if(gameObject.tag == buildingTags[3])
-		{
-			return BUILDING_TYPE.aqaduct;
+			case "50m":
+				highest = 40f;
+				average = 25f;
+				lowest = 5f;
+				return BUILDING_TYPE.small;
+			case "100m":
+				highest = 60f;
+				average = 40f;
+				lowest = 20f;
+				return BUILDING_TYPE.medium;
+			case "150m":
+				highest = 90f;
+				average = 60f;
+				lowest = 40f;
+				return BUILDING_TYPE.large;
+			case "Building":
+				return BUILDING_TYPE.aqaduct;
 		}
 		return buildingChanged;
 	}

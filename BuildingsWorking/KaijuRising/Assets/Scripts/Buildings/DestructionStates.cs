@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 
 public enum BUILDING_STATE
 {
@@ -10,19 +9,15 @@ public enum BUILDING_STATE
 	STATE_THREE
 };
 public class DestructionStates : BuildingChange {
-
-	public Slider healthChanger;
-	public Text textBox;
+	
 	private BUILDING_STATE currentState;
 	public int changeState;
-	public float health,highest,average,lowest;
+	public float health;
 
 	private void Update()
 	{
 		//checkBuildingHealth();
-		health = healthChanger.value;
-		textBox.text = health.ToString();
-		intergerState(setHealthState(health));
+		intergerState(setHealthState(grabingBuildingInfo.health));
 	}
 
 	private BUILDING_STATE intergerState(int stateChanger)
@@ -72,6 +67,7 @@ public class DestructionStates : BuildingChange {
 		}
 		return changeState;
 	}
+
 	public void changeTexture (int state)
 	{
 		updatedTexture(materialSelected[state]);

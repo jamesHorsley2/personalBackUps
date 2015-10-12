@@ -62,7 +62,9 @@ public class addStuffToBuildings : MonoBehaviour {
 		for(int z=0; z<findAllBuildings.Length; z++)
 		{
 			findAllBuildings[z].tag = "Building";
+			//findAllBuildings[z].gameObject.AddComponent<DestructionStates>();
 		}
+
 		checkForFakeBuildings = GameObject.FindGameObjectsWithTag(buildingTag);
 		for(int i=0; i< checkForFakeBuildings.Length; i++)
 		{
@@ -83,12 +85,12 @@ public class addStuffToBuildings : MonoBehaviour {
 		for(int q=0; q< smallestBuildings.Count; q++)
 		{
 			smallestBuildings[q].gameObject.name = changeBuildingInformation.fiftyMetreNewName;
-			smallestBuildings[q].gameObject.tag = changeBuildingInformation.fiftyMetreNewName;
+			//smallestBuildings[q].gameObject.tag = changeBuildingInformation.fiftyMetreNewName;
 		}
 		for(int q=0; q< secondLargest.Count; q++)
 		{
 			secondLargest[q].gameObject.name = changeBuildingInformation.hundredMetreNewName;
-			secondLargest[q].gameObject.tag = changeBuildingInformation.hundredMetreNewName;;
+			//secondLargest[q].gameObject.tag = changeBuildingInformation.hundredMetreNewName;;
 		}
 		for(int q=0; q< tallestBuilding.Count; q++)
 		{
