@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
+
 public enum BUILDING_TYPE
 {
 	small,
@@ -8,12 +10,11 @@ public enum BUILDING_TYPE
 	aqaduct
 };
 
-public class BuildingChange : MonoBehaviour {
-
+public class BuildingChange : NetworkBehaviour {
+	
 	public Material[] newMesh;
 	private BUILDING_TYPE differentBuilding;
 	private int amountOfStates = 4;
-
 
 	[HideInInspector]
 	public Entity grabingBuildingInfo;
@@ -22,7 +23,7 @@ public class BuildingChange : MonoBehaviour {
 	[HideInInspector]
 	public Material[] materialSelected;
 
-	private void Start()
+	private void Awake()
 	{
 		materialSelected = new Material[4];
 		selector(findBuildingType(differentBuilding, gameObject.tag));

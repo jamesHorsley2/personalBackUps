@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
-
-public class DamageableEntity : MonoBehaviour {
+using UnityEngine.Networking;
+public class DamageableEntity : NetworkBehaviour {
 	
-    public float health = 200f;
+    public float health;
     public bool isDead;
 	private string checkingTag;
 
@@ -16,12 +16,15 @@ public class DamageableEntity : MonoBehaviour {
 
     protected virtual void Start()
     {
-		nameChecker(gameObject.tag);
-        if(health <= 0)
-        {
-            isDead = true;
-			onModifyDeath();
-        }
+		if(isServer)
+		{
+			nameChecker(gameObject.tag);
+			if(health <= 0)
+			{
+				isDead = true;
+				onModifyDeath();
+			}
+		}
     }
 
 	public void modifyHealth(float amount)

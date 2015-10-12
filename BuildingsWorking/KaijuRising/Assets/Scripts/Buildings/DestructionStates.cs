@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using UnityEngine.Networking;
 public enum BUILDING_STATE
 {
 	STATE_ZERO,
@@ -10,14 +10,47 @@ public enum BUILDING_STATE
 };
 public class DestructionStates : BuildingChange {
 	
-	private BUILDING_STATE currentState;
+	[SyncVar]
 	public int changeState;
-	public float health;
+	[SyncVar]
+	public bool toggle = false;
+	private BUILDING_STATE currentState;
+
+	private void Start()
+	{
+		if(isServer)
+		{
+			grabingBuildingInfo.onModifyHealth += server;
+		}
+		if(isClient && !isServer)
+		{
+			print ("i am player");
+			grabingBuildingInfo.onModifyHealth += client;
+		}
+	}
 
 	private void Update()
 	{
-		//checkBuildingHealth();
+		if(toggle)
+		{
+			if(isClient && !isServer)
+			{
+				print("i only run when a client");
+				grabingBuildingInfo.onModifyHealth();
+			}
+			toggle =! toggle;
+		}
+	}
+
+	private void server()
+	{
 		intergerState(setHealthState(grabingBuildingInfo.health));
+		toggle = true;
+	}
+
+	private void client()
+	{
+		intergerState(changeState);
 	}
 
 	private BUILDING_STATE intergerState(int stateChanger)

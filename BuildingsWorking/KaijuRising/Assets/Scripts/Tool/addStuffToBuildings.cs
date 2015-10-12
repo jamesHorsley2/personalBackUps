@@ -89,18 +89,18 @@ public class addStuffToBuildings : MonoBehaviour {
 		}
 		for(int q=0; q< secondLargest.Count; q++)
 		{
-			secondLargest[q].gameObject.name = changeBuildingInformation.hundredMetreNewName;
-			//secondLargest[q].gameObject.tag = changeBuildingInformation.hundredMetreNewName;;
+			//secondLargest[q].gameObject.name = changeBuildingInformation.hundredMetreNewName;
+			secondLargest[q].gameObject.tag = changeBuildingInformation.hundredMetreNewName;;
 		}
 		for(int q=0; q< tallestBuilding.Count; q++)
 		{
-			tallestBuilding[q].gameObject.name = changeBuildingInformation.hundredfiftyMetreNewName;
+			//tallestBuilding[q].gameObject.name = changeBuildingInformation.hundredfiftyMetreNewName;
 			tallestBuilding[q].gameObject.tag = changeBuildingInformation.hundredfiftyMetreNewName;
 
 		}
 		for(int q=0; q< unColoured.Count; q++)
 		{
-			unColoured[q].gameObject.name = changeBuildingInformation.unKnownNewName;
+			//unColoured[q].gameObject.name = changeBuildingInformation.unKnownNewName;
 			unColoured[q].gameObject.tag = changeBuildingInformation.unKnownNewName;
 
 		}
