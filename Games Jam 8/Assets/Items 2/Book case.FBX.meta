@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: b47375a7ebe4c45d5b86126ea334a73c
+timeCreated: 1445077390
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Book cover
+    100004: Book cover001
+    100006: Book cover002
+    100008: Book cover003
+    100010: Book cover004
+    100012: Book cover005
+    100014: Book cover006
+    100016: Book cover007
+    100018: Book cover008
+    100020: Book cover009
+    100022: Book pages
+    100024: Book pages001
+    100026: Book pages002
+    100028: Book pages003
+    100030: Book pages004
+    100032: Book pages005
+    100034: Book pages006
+    100036: Book pages007
+    100038: Book pages008
+    100040: Book pages009
+    100042: Bookcase
+    400000: //RootNode
+    400002: Book cover
+    400004: Book cover001
+    400006: Book cover002
+    400008: Book cover003
+    400010: Book cover004
+    400012: Book cover005
+    400014: Book cover006
+    400016: Book cover007
+    400018: Book cover008
+    400020: Book cover009
+    400022: Book pages
+    400024: Book pages001
+    400026: Book pages002
+    400028: Book pages003
+    400030: Book pages004
+    400032: Book pages005
+    400034: Book pages006
+    400036: Book pages007
+    400038: Book pages008
+    400040: Book pages009
+    400042: Bookcase
+    2300000: Book cover
+    2300002: Book cover001
+    2300004: Book cover002
+    2300006: Book cover003
+    2300008: Book cover004
+    2300010: Book cover005
+    2300012: Book cover006
+    2300014: Book cover007
+    2300016: Book cover008
+    2300018: Book cover009
+    2300020: Book pages
+    2300022: Book pages001
+    2300024: Book pages002
+    2300026: Book pages003
+    2300028: Book pages004
+    2300030: Book pages005
+    2300032: Book pages006
+    2300034: Book pages007
+    2300036: Book pages008
+    2300038: Book pages009
+    2300040: Bookcase
+    3300000: Book cover
+    3300002: Book cover001
+    3300004: Book cover002
+    3300006: Book cover003
+    3300008: Book cover004
+    3300010: Book cover005
+    3300012: Book cover006
+    3300014: Book cover007
+    3300016: Book cover008
+    3300018: Book cover009
+    3300020: Book pages
+    3300022: Book pages001
+    3300024: Book pages002
+    3300026: Book pages003
+    3300028: Book pages004
+    3300030: Book pages005
+    3300032: Book pages006
+    3300034: Book pages007
+    3300036: Book pages008
+    3300038: Book pages009
+    3300040: Bookcase
+    4300000: Bookcase
+    4300002: Book cover
+    4300004: Book pages
+    4300006: Book cover001
+    4300008: Book pages001
+    4300010: Book cover002
+    4300012: Book pages002
+    4300014: Book cover003
+    4300016: Book pages003
+    4300018: Book cover004
+    4300020: Book pages004
+    4300022: Book cover005
+    4300024: Book pages005
+    4300026: Book cover006
+    4300028: Book pages006
+    4300030: Book cover007
+    4300032: Book pages007
+    4300034: Book cover008
+    4300036: Book pages008
+    4300038: Book cover009
+    4300040: Book pages009
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
