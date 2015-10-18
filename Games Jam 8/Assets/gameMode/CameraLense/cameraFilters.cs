@@ -9,19 +9,42 @@ public enum CAMERA_LENSE
 	BLUE_LENSE
 };
 
+
 public class cameraFilters : MonoBehaviour {
-
-	public List<GameObject> normView, redView, blueView;
+	
 	public CAMERA_LENSE cameraLense;
+	public List<GameObject> objectsInScene, normView, redView, blueView;
 
-	private void Start()
+	private void Awake()
 	{
 		activateCamera.checkCamera += checkCameraState;
 	}
 
+	private void Start()
+	{
+		checker();
+	}
+
+	private void checker()
+	{
+		objectsInScene.AddRange(GameObject.FindGameObjectsWithTag("Object"));
+		int length = objectsInScene.Count;
+		for(int i=0; i <length -2; i+=3)
+		{
+			grabObjectsFromScene(normView, Random.Range (0,objectsInScene.Count));
+			grabObjectsFromScene(redView, Random.Range (0,objectsInScene.Count));
+			grabObjectsFromScene(blueView, Random.Range (0,objectsInScene.Count));
+		}
+	}
+		
+	private void grabObjectsFromScene(List<GameObject> localList, int which)
+	{
+		localList.Add (objectsInScene[which].gameObject as GameObject);
+		objectsInScene.RemoveAt(which);
+	}
+	
 	private void checkCameraState()
 	{
-		//print (cameraLense = checkingLense(cameraSwitch(activateCamera.stateSwitch)));
 		cameraLense = checkingLense(cameraSwitch(activateCamera.stateSwitch));
 	}
 
@@ -30,19 +53,19 @@ public class cameraFilters : MonoBehaviour {
 		switch(change)
 		{
 			case CAMERA_LENSE.NORMAL_LENSE:
-				checkObjects(normView, true);
-				checkObjects(redView, false);
-				checkObjects(blueView, false);
+					checkObjects(normView, true);
+					checkObjects(redView, false);
+					checkObjects(blueView, false);
 				break;
 			case CAMERA_LENSE.RED_LENSE:
-				checkObjects(normView, false);
-				checkObjects(redView, true);
-				checkObjects(blueView, false);
+					checkObjects(normView, false);
+					checkObjects(redView, true);
+					checkObjects(blueView, false);
 				break;
 			case CAMERA_LENSE.BLUE_LENSE:
-				checkObjects(normView, false);
-				checkObjects(redView, false);
-				checkObjects(blueView, true);
+					checkObjects(normView, false);
+					checkObjects(redView, false);
+					checkObjects(blueView, true);
 				break;
 		}
 		return change;
@@ -61,6 +84,20 @@ public class cameraFilters : MonoBehaviour {
 		}
 		return cameraLense;
 	}
+
+	private int random(List<GameObject> localArray)
+	{
+		int randomPoint = Random.Range(0,localArray.Count);
+		localArray.RemoveAt(randomPoint);
+		return randomPoint;
+	}
+/*
+	private int randomArrayPoint(List<GameObject> ayy)
+	{
+		int randomPoint = Random.Range(0,)
+		return
+	}
+*/
 
 	private void checkObjects(List<GameObject> localArray, bool isOn)
 	{
