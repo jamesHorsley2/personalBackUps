@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Joystick
+  - Joystick Origin
+  - Pickup Point
+  - CamFollow
+  - MainMenuCam
+  - CID
+  - Building
+  - Monument
+  - Ground
+  - 50mBuilding
+  - Change
+  - 100m
+  - 150m
+  - 50m
+  - NoColour
+  - ScoreHandler
+  - yumkaxx
+  - gozu
+  - rex
+  - falsol
+  - trikarenos
+  - vokrouh
+  - kemono
+  - mantra
+  - enterGame
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Pickup
+  - Fragments
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
