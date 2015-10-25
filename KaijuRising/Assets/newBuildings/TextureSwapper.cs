@@ -5,35 +5,17 @@ using System.Collections.Generic;
 public class TextureSwapper : BuildingChange {
 	
 	public int amountInList;
-	public Material[] modulMaterials;
 	public List<List<Renderer>> ObjectCatagories;
+	//public List<GameObject> objectNames;
 	public string[] nameArray;
+	public Material[] materialList;
 
-	private void Start()
-	{	
+	public void runSystem(Material[] materialUsed)
+	{
 		storeValues();
 		searchBuilding();
-		checkState();
+		checkState(materialUsed);
 	}
-
-	private void checkState()
-	{
-		for(int i=0; i < amountInList;i++)
-		{
-			for(int q =0; q < ObjectCatagories[i].Count; q ++)
-			{
-				if(ObjectCatagories[i][q].name.Contains(nameArray[i]))
-				{
-					for(int b=0; b < ObjectCatagories[i].Count; b++)
-					{
-						updatedTexture(ObjectCatagories[i][b],modulMaterials[i]);
-					}
-				}
-			}
-		}
-	}
-	
-
 	private void storeValues()
 	{
 		ObjectCatagories = new List<List<Renderer>>(amountInList);
@@ -50,14 +32,32 @@ public class TextureSwapper : BuildingChange {
 
 		for(int z=0; z < amountInList; z++)
 		{
+
 			for(int i=0; i<localMaterial.Length; i++)
 			{
 				if(localMaterial[i].gameObject.name.Contains(nameArray[z]))
 				{
 					ObjectCatagories[z].Add(localMaterial[i]);
+					//objectNames.Add (localMaterial[i].gameObject);
 				}
 			}
 		}
 	}
 
+	public void checkState(Material[] localMaterialArray)
+	{
+		for(int i=0; i < amountInList; i++)
+		{
+			for(int q =0; q < ObjectCatagories[i].Count; q++)
+			{
+				if(ObjectCatagories[i][q].name.Contains(nameArray[i]))
+				{
+					for(int b=0; b < ObjectCatagories[i].Count; b++)
+					{
+						updatedTexture(ObjectCatagories[i][b],localMaterialArray[i]);
+					}
+				}
+			}
+		}
+	}
 }

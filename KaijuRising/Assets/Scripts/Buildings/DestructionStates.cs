@@ -11,19 +11,32 @@ public enum BUILDING_STATE
 public class DestructionStates : TextureSwapper {
 
 	[SyncVar]
+	public int changeState;
+	[SyncVar]
 	public bool toggle = false;
 	private BUILDING_STATE currentState;
+	public Material[] textureStateOne,textureStateTwo,textureStateThree;
 	
 	private void Start()
 	{
-		if(isServer)
+		if(isServer && !isLocalPlayer)
 		{
 			grabingBuildingInfo.onModifyHealth += server;
+			runSystem(textureStateOne);
 		}
-		if(isClient && !isServer)
+		else
 		{
 			grabingBuildingInfo.onModifyHealth += client;
+			runSystem(textureStateOne);
 		}
+
+		/*
+		if(isClient && isLocalPlayer)
+		{
+			print ("werks");
+		}
+		*/
+
 	}
 	
 	private void Update()
@@ -42,6 +55,7 @@ public class DestructionStates : TextureSwapper {
 	{
 		intergerState(setHealthState(grabingBuildingInfo.health));
 		toggle = true;
+		//toggle = true;
 	}
 	
 	private void client()
@@ -55,16 +69,19 @@ public class DestructionStates : TextureSwapper {
 		{
 		case 0: //This represents the State_Zero
 			currentState = BUILDING_STATE.STATE_ZERO;
+			checkState(textureStateOne);
 			//changeTexture(stateChanger);
 			break;
 			
 		case 1:	//This represents the State_One
 			currentState = BUILDING_STATE.STATE_ONE;
+			checkState(textureStateTwo);
 			//changeTexture(stateChanger);
 			break;
 			
 		case 2:	//This represents the State_Two
 			currentState = BUILDING_STATE.STATE_TWO;
+			checkState(textureStateThree);
 			//changeTexture(stateChanger);
 			break;
 		}
@@ -87,11 +104,4 @@ public class DestructionStates : TextureSwapper {
 		}
 		return changeState;
 	}
-	/*
-	
-	public void changeTexture (int state)
-	{
-		updatedTexture(materialSelected[state]);
-	}
-	*/
 }

@@ -11,10 +11,8 @@ public enum BUILDING_TYPE
 };
 
 public class BuildingChange : NetworkBehaviour {
-
-	[SyncVar]
-	public int changeState;
-	public Material[] newMesh;
+	
+	//public Material[] newMesh;
 	private BUILDING_TYPE differentBuilding;
 	public int amountOfStates;
 	
@@ -36,7 +34,7 @@ public class BuildingChange : NetworkBehaviour {
 	{
 		for(int i=0; i< amountOfStates; i++)
 		{
-			materialSelected[i] = newMesh[i];
+			//materialSelected[i] = newMesh[i];
 		}
 	}
 	
