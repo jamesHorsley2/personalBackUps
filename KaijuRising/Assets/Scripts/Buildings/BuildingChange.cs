@@ -11,10 +11,12 @@ public enum BUILDING_TYPE
 };
 
 public class BuildingChange : NetworkBehaviour {
-	
+
+	[SyncVar]
+	public int changeState;
 	public Material[] newMesh;
 	private BUILDING_TYPE differentBuilding;
-	private int amountOfStates = 4;
+	public int amountOfStates;
 	
 	[HideInInspector]
 	public Entity grabingBuildingInfo;
@@ -25,7 +27,7 @@ public class BuildingChange : NetworkBehaviour {
 	
 	private void Awake()
 	{
-		materialSelected = new Material[4];
+		materialSelected = new Material[amountOfStates];
 		selector(findBuildingType(differentBuilding, gameObject.tag));
 		grabingBuildingInfo = GetComponent<Entity>();
 	}
@@ -60,8 +62,8 @@ public class BuildingChange : NetworkBehaviour {
 		return buildingChanged;
 	}
 	
-	public void updatedTexture(Material newTexture) // this is called in 'Destruction States'
+	public void updatedTexture(Renderer currentRender,Material newTexture) // this is called in 'Destruction States'
 	{
-		GetComponent<Renderer>().material = newTexture;
+		currentRender.material = newTexture;
 	}
 }

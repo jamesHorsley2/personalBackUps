@@ -8,10 +8,8 @@ public enum BUILDING_STATE
 	STATE_TWO,
 	STATE_THREE
 };
-public class DestructionStates : BuildingChange {
-	
-	[SyncVar]
-	public int changeState;
+public class DestructionStates : TextureSwapper {
+
 	[SyncVar]
 	public bool toggle = false;
 	private BUILDING_STATE currentState;
@@ -24,7 +22,6 @@ public class DestructionStates : BuildingChange {
 		}
 		if(isClient && !isServer)
 		{
-			print ("i am player");
 			grabingBuildingInfo.onModifyHealth += client;
 		}
 	}
@@ -35,7 +32,6 @@ public class DestructionStates : BuildingChange {
 		{
 			if(isClient && !isServer)
 			{
-				print("i only run when a client");
 				grabingBuildingInfo.onModifyHealth();
 			}
 			toggle =! toggle;
@@ -59,17 +55,17 @@ public class DestructionStates : BuildingChange {
 		{
 		case 0: //This represents the State_Zero
 			currentState = BUILDING_STATE.STATE_ZERO;
-			changeTexture(stateChanger);
+			//changeTexture(stateChanger);
 			break;
 			
 		case 1:	//This represents the State_One
 			currentState = BUILDING_STATE.STATE_ONE;
-			changeTexture(stateChanger);
+			//changeTexture(stateChanger);
 			break;
 			
 		case 2:	//This represents the State_Two
 			currentState = BUILDING_STATE.STATE_TWO;
-			changeTexture(stateChanger);
+			//changeTexture(stateChanger);
 			break;
 		}
 		return currentState;
@@ -91,9 +87,11 @@ public class DestructionStates : BuildingChange {
 		}
 		return changeState;
 	}
+	/*
 	
 	public void changeTexture (int state)
 	{
 		updatedTexture(materialSelected[state]);
 	}
+	*/
 }

@@ -2,28 +2,45 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class TextureSwapper : MonoBehaviour {
+public class TextureSwapper : BuildingChange {
 	
 	public int amountInList;
-	public List<List<Material>> ObjectCatagories;
-	//public GameObject[][] ObjectCatagories;
+	public Material[] modulMaterials;
+	public List<List<Renderer>> ObjectCatagories;
 	public string[] nameArray;
-	public List<GameObject> storedMaterials;
 
 	private void Start()
 	{	
 		storeValues();
 		searchBuilding();
-		print (ObjectCatagories[1][5]);
+		checkState();
 	}
+
+	private void checkState()
+	{
+		for(int i=0; i < amountInList;i++)
+		{
+			for(int q =0; q < ObjectCatagories[i].Count; q ++)
+			{
+				if(ObjectCatagories[i][q].name.Contains(nameArray[i]))
+				{
+					for(int b=0; b < ObjectCatagories[i].Count; b++)
+					{
+						updatedTexture(ObjectCatagories[i][b],modulMaterials[i]);
+					}
+				}
+			}
+		}
+	}
+	
 
 	private void storeValues()
 	{
-		ObjectCatagories = new List<List<Material>>(amountInList);
+		ObjectCatagories = new List<List<Renderer>>(amountInList);
 		//creates the different sections to sort through the lists with
 		for(int q =0; q < amountInList; q++)
 		{
-			ObjectCatagories.Add(new List<Material>());
+			ObjectCatagories.Add(new List<Renderer>());
 		}
 	}
 
@@ -37,12 +54,7 @@ public class TextureSwapper : MonoBehaviour {
 			{
 				if(localMaterial[i].gameObject.name.Contains(nameArray[z]))
 				{
-	
-					ObjectCatagories[z].Add(localMaterial[i].material);
-					print (ObjectCatagories[z]);
-					//ObjectCatagories[z][i] = localMaterial[i].gameObject;
-					//storedMaterials.Add (localMaterial[i].gameObject);
-	
+					ObjectCatagories[z].Add(localMaterial[i]);
 				}
 			}
 		}

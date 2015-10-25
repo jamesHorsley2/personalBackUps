@@ -245,6 +245,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100118, guid: a5146506b92214cde8d1ea3dbee41814, type: 3}
+      propertyPath: m_TagString
+      value: 50m
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a5146506b92214cde8d1ea3dbee41814, type: 3}
   m_IsPrefabParent: 0
@@ -2189,6 +2193,52 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 461923489}
+--- !u!1 &478215805 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 11b6a546cb96c48bfb2f4af7ffd85c4e, type: 3}
+  m_PrefabInternal: {fileID: 914256876}
+--- !u!114 &478215807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 478215805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a8d500b7f424963953aa91577a1143, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeState: 0
+  newMesh:
+  - {fileID: 2100000, guid: c2eafb59c54897440974895800fcfc1c, type: 2}
+  - {fileID: 2100000, guid: 57ded09b08764db4eaeebc4c4bcc340d, type: 2}
+  - {fileID: 2100000, guid: 35462e410468b2444b9e05796df48f21, type: 2}
+  - {fileID: 2100000, guid: cf184639cf640b5479b36ed876e051cd, type: 2}
+  amountOfStates: 3
+  grabingBuildingInfo: {fileID: 0}
+  highest: 0
+  average: 0
+  lowest: 0
+  materialSelected: []
+  amountInList: 8
+  modulMaterials:
+  - {fileID: 2100000, guid: dafc5639793c23744b3a8c16692ce06d, type: 2}
+  - {fileID: 2100000, guid: dc6929cd169e9fd45bcf8e89b9783213, type: 2}
+  - {fileID: 2100000, guid: 1992cdc242c51624286092c24b221086, type: 2}
+  - {fileID: 2100000, guid: 156900bd0907c7844ac0a677f82aabed, type: 2}
+  - {fileID: 2100000, guid: 377a43b76d81ef64599c5580b5ceb945, type: 2}
+  - {fileID: 2100000, guid: c2eafb59c54897440974895800fcfc1c, type: 2}
+  - {fileID: 2100000, guid: a85579b4ab474634aab450f8719ff6ad, type: 2}
+  - {fileID: 2100000, guid: f8f8fd32407e41f42af44e5b5688ea99, type: 2}
+  nameArray:
+  - Pillar
+  - Wall
+  - Lvl2
+  - Lvl1_Arch
+  - Triangle roof001
+  - Triangle roof002
+  - Triangle roof003
+  - Box
 --- !u!1 &516031836
 GameObject:
   m_ObjectHideFlags: 0
@@ -2582,15 +2632,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57a8d500b7f424963953aa91577a1143, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amountInList: 6
+  changeState: 0
+  newMesh:
+  - {fileID: 2100000, guid: c2eafb59c54897440974895800fcfc1c, type: 2}
+  - {fileID: 2100000, guid: 57ded09b08764db4eaeebc4c4bcc340d, type: 2}
+  - {fileID: 2100000, guid: 35462e410468b2444b9e05796df48f21, type: 2}
+  - {fileID: 2100000, guid: cf184639cf640b5479b36ed876e051cd, type: 2}
+  amountOfStates: 3
+  grabingBuildingInfo: {fileID: 0}
+  highest: 0
+  average: 0
+  lowest: 0
+  materialSelected: []
+  amountInList: 8
+  modulMaterials:
+  - {fileID: 2100000, guid: dafc5639793c23744b3a8c16692ce06d, type: 2}
+  - {fileID: 2100000, guid: dc6929cd169e9fd45bcf8e89b9783213, type: 2}
+  - {fileID: 2100000, guid: 1992cdc242c51624286092c24b221086, type: 2}
+  - {fileID: 2100000, guid: 156900bd0907c7844ac0a677f82aabed, type: 2}
+  - {fileID: 2100000, guid: 377a43b76d81ef64599c5580b5ceb945, type: 2}
+  - {fileID: 2100000, guid: c2eafb59c54897440974895800fcfc1c, type: 2}
+  - {fileID: 2100000, guid: a85579b4ab474634aab450f8719ff6ad, type: 2}
+  - {fileID: 2100000, guid: f8f8fd32407e41f42af44e5b5688ea99, type: 2}
   nameArray:
-  - Pillar002
+  - Pillar
   - Wall
   - Lvl2
   - Lvl1_Arch
   - Triangle roof001
   - Triangle roof002
-  storedMaterials: []
+  - Triangle roof003
+  - Box
 --- !u!1 &594823464
 GameObject:
   m_ObjectHideFlags: 0
@@ -3657,7 +3729,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 11b6a546cb96c48bfb2f4af7ffd85c4e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: 11b6a546cb96c48bfb2f4af7ffd85c4e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 11b6a546cb96c48bfb2f4af7ffd85c4e, type: 3}
