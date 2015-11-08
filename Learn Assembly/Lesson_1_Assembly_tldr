@@ -1,4 +1,4 @@
-Assembly tldr
+Lesson 1 Assembly tldr
 
 	REGISTORS:
 there are 8 registers in the game boys cpu, each one contains 8 bits of data/ 1 byte
@@ -26,7 +26,7 @@ The Registor 'A' can have data loaded into it directly, as well with C,B,D,E,H,L
 	negated with a single byte instruction,
 
 	A is the source for all 8-bit arithmetic and logical instructions except for INC & DEC
-	which are increment and decrement a registor by 1. 
+	which are increments and decrement a registor by 1. 
 
 	Basically if you wanted to Add two 8-bit registors together, the two numbers you would use
 	Would be A and anouther 8-bit registor
@@ -105,6 +105,26 @@ The instructions set for the gameBoy are also known as opcodes. thse opcodes are
 		Indirect Loading of Registers
 
 			time for some working out, if H memory location was %AA, and L memory location would be $BB, BB is the least significant byte, and %AA is the most significant byte, if LD reg,(HL), reg is loaded with the value from the memory location of 0x$AABB, which for example would be '4'
+
+			So when i LD D,(HL) i am loading the 8-bit register D with the 8-bit data item located in the memory address of HL
+
+			When i LD A,(BC) i am loading the accumulator from the memory address at BC
+
+		Storing Registers in Memory
+		
+		Storing register in memory are very similar to loading registers from memory
+		Rember this syntax:
+
+			LD destination, Source (What ever that comes after LD is the destnation that data is going to be store, and what ever goes after the ',' is the source of that data)
+
+			So if i was to do LD ($C000), A. i am storing the accumulator in the value of the memory location of $C000, so instead of referenceing the actual memory location that is $C000, i am actually referencing the 16-bit data value inside of $C000, and that is why it is fraised like '($C000)'
+
+			LD (HL), C
+			Same thing as before, it loads the contents of C into the address of HL, which is the 8-bit data value, not the address i am loading it into
+
+			If i wanted to store a specfic value in memory, i would have to load HL with the destination memory so i would dp, LD (HL), $8000; now that HL is now loaded into that memory location we can now load specific value into that memory address, so LD (HL), $6F, is now storing $6f in memory location $8000
+
+
 
 
 
