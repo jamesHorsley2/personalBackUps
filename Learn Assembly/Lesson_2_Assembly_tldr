@@ -1,0 +1,131 @@
+Lesson 2 Assembly tldr
+
+Arithmetic and Logical Operators
+
+This is lesson is about playing with data, more than memory address's
+
+8-bit Arithmeic and Logical Instructions
+ADD A, R
+ADD A, n
+ADD A, (HL)
+
+This is the very simple ADD instruction. It basically adds the contents of register A with the second operand places the result in A. The second operand can be either an 8-bit register r, or a single byte of immediate data n, or a byte iun memory addressed by the register pair HL.
+
+Flags affected are (not The F register is the register that handles this)
+
+	Z: set according to result	(Zero Flag)
+	C: set according to result	(Carry Flag)
+	N: reset (0)					(Subtraction Flag)
+	H: set according to result	(Half Carry Flag)
+
+		ADC A, r
+		ADC A, n
+		ADC A, (HL)
+
+		ADC is the Add Carry instruction. it acts excatly like a stamdard ADD, including operands, except that is adds the contents of the single-bit Carry flag to the result. Helpfull for adding things with large numbers
+
+		Z: set according to result	
+		C: set according to result
+		N: reset (0)				
+		H: set according to result
+
+	SUB r
+	SUB n
+	SUB (HL)
+
+	SUB is the subtraction instruction that subtracts the operand from the register A and leaves the result in A. Same types of operands as the ADD instruction.
+
+	Notice how the instruction does not have a destination specified, this is because it is implied that the destination is always A.
+
+	Z: set according to result	
+	C: set according to result
+	N: set (1)				
+	H: set according to result
+
+		SBC A,r
+		SBC A,n
+		SBC A,(HL)
+
+		SBC is the SUB instruction with Carry. it subtracts the Carry flag from the result
+
+		Z: set according to result	
+		C: set according to result
+		N: set (1)				
+		H: set according to result
+
+	AND r
+	AND n
+	AND (HL)
+
+	This Instruction LOGICALLY AND's, each bit of both register A and the operand together and leaves the result in A.
+
+	So from what i understand is that it adds both register A, and the operands bits together, and leaves the result in register A
+
+	Notice how the instruction does not have a destination specified, this is because it is implied that the destination is always A.
+	
+	Z: set according to result	
+	C: reset (0)
+	N: reset (0)				
+	H: set (1)
+
+		OR r
+		OR n
+		OR (HL)
+
+		This instruction is LOGICALLY OR's each bit of both register A and the operand together and leaves the result in A
+
+		Z: set according to result	
+		C: reset (0)
+		N: reset (0)				
+		H: reset (0)
+
+	XOR r
+	XOR n
+	XOR (HL)
+	This intruction LOGICALLY XOR's each bit of both register A and the operand together and leaves the result in A
+
+	For example "A XOR B, would be translated to 'are A and B not equal' so XOR ax,ax will set ax to zero since ax is always equal to its self, if it was not equal, ax would be set to One"
+
+	Z: set according to result	
+	C: reset (0)
+	N: reset (0)				
+	H: reset (0)
+
+		CP r
+		CP n
+		CP (HL)
+
+		CP is the ComPares instruction, the instruction ComPares the operand with the contents of the accumulator by subtracting the operand from the acumulator. This instruction differs from the SUB insutruction in that the contents of A aren't changed, only the flags
+
+		Z: set according to result	
+		C: set according to result
+		N: set (1)				
+		H: set according to result
+
+	INC r
+	INC (HL)
+
+	The INC instruction INCrements (adds) the operand (an 8-bit register) by one. in the case of INC (HL), the 8-bit data value at the memory location contained in register pair HL is incremented by 1;
+
+	Z: set according to result	
+	C: not affected
+	N: reset (0)				
+	H: set according to result
+
+		DEC r
+		DEC (HL)
+
+		The DEC instruction DECrements the operand by one. in the case of DEC(HL), the 8-bit value at the memory location contained in register pair HL is decremented by 1
+		
+		Z: set according to result	
+		C: not affected
+		N: reset (0)				
+		H: set according to result	
+
+
+
+
+
+
+
+

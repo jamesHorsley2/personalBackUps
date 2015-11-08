@@ -1,0 +1,133 @@
+Lesson 1 Assembly tldr
+
+	REGISTORS:
+there are 8 registers in the game boys cpu, each one contains 8 bits of data/ 1 byte
+
+A 
+F
+C
+B
+D
+E
+H
+L
+
+These Registors can be added together to create 16 bit registors, for tasks like memory addressing.
+
+AF
+CB
+DE
+HL
+
+There is also the registors PC and SP
+
+The Registor 'A' can have data loaded into it directly, as well with C,B,D,E,H,L, but unlike the others
+	A is a Accumulator for data, it is the only registor that can be compleneted, Deceimal adjusred, or 
+	negated with a single byte instruction,
+
+	A is the source for all 8-bit arithmetic and logical instructions except for INC & DEC
+	which are increments and decrement a registor by 1. 
+
+	Basically if you wanted to Add two 8-bit registors together, the two numbers you would use
+	Would be A and anouther 8-bit registor
+
+The Registor 'F' can not have data loaded into it since it is read only, this is because it is aproccessor status registor, which unlike normal registers, has Four bits in the registor that indicate the outcome 	of the last operation performed(genearaly). 
+
+																One bit indicates whether or not the last instruction generated a Carry (what is a carry?)
+
+The B & C / BC registors are generally used as counters furing reptitive blocks of code
+	like moving data from one location to anouther
+
+The registers H & L, are special due to the fact that they are extensively used for indirect addressing when they are added together to make HL. Indrect addressing is when, instead of specifying a specific memory 	address in a operation, you would use a 16-bit registor as a the memory address instead
+its handy for things like address calculations.
+It is the only register pair that can be used indirecty in the intructions:
+ADC,ADD,AND,CP,DEC,INC,OR,SUB
+
+The regester pair SP is the Stack pointer, it is where the valuse from PUSH, POP, CALL and RET instructions	are placed and taken. these values are return addresses for subroutines(what are subroutines?) and such. When the Gameboy is initlaized, this register contains the the value %FFFE. On the GameBoy CPU, the stackm grows from the TOP DOWN, the means any 16-bit registor pushed to  the stack, are file from top to bottom like a stagmite
+
+The PC register is the Program Counter. this register tells the CPU the address that the next instruction is to be fetched form in memory. When the GameBoy starts up this register contains the value $0100
+
+	INSTRUCTION SET:
+
+The instructions set for the gameBoy are also known as opcodes. thse opcodes are grouped into 8 general categorised in to 8 general categories:
+	
+	8 and 16-bit loads
+	8-bit arithmetic and Logical instructions
+	16-bit Arithmetic instructions
+	General Purpose Arithmetic and CPU Control Instructions
+	Rotate and Shift Instructions
+	Bit Manipulation Instructions
+	Jump Instructions
+	Call and Return Instructions
+
+8 and 16-bit loads
+
+	Register to register Transfers
+
+		Syntax to rember:
+			LD (load instruction) this instruction can transfer any 8-bit general-purpose register (A,B,C,D,E,H or L) to any other 8-bit general purpose register. the F Register can only be transferred to pr from the stack, along with the accumulator as register pair AF
+				(PUSH AF and POP AF) (pushs AF in and Pops AF out of the stack)
+
+			LD A, reg (here i am transfering the contents of reg into the accumlator)
+			LD reg, A (here i am transfering the contents of the accumlator in reg)
+			LD reg, (HL) (here i am loading reg with the value at the address in HL, basically its the value 		inside the memory addres inside of the register)
+			LD(HL), reg (here i am giving the value inside the memory location of HL the contents of reg/ stores	reg at HL)
+
+			LD A,B (i am transfering the contents of B into the accumulater)
+			LD C,A (here i am transfering contents of the accumulator into C)
+			LD A,(HL) (here i am loading the value inside the memory address of hl with the contents of the 		accumulator)
+			LD (HL), A (here i am loading the value of the accumulator with the value stored inside the memory address in HL / storing A at HL)
+
+	Direct Loading of Registers
+
+		THe accumulator, register pais BC,DE, or HL, and the Stack POinter can be loaded form memory using Direct Addressing. Some Examples of this are:
+
+		LD A ($3FFF)
+		this instruction loads the accumulator (register a) from memory location $3FFF
+
+		LD HL, ($A000)
+		this instruction loads register L from memory location $A000 (least significant byte), and register H from memory location $A001 (most significant byte).
+
+		LD SP, ($4050)
+		This loads the Stack Pointer from memory location $4050 (least significant byte) and from $4051 (most significant byte). All Stack operations such as PUSH or POP will be located at that new address loaded from that location, EG..if at $4050 the data was $00 and at $4051 was $C4, then the Stack Pointer will contain $C400 and all stack operations will happen there. Notice how the less significant byte of a 16-bit address is store at the lower address  
+
+		(clarifcation, the term reg means 8-bit register, meaning i can do something like this "LD reg, A", meaning i can load the 8-bit register from the location of the accumulator)
+
+	Immediate Loading of Registers
+
+		Immediate loading of registers is where you able to load a spefic fixed value into any specfic register or register pair. This also includes the Stack Pointer and the Program Counter, though you shouldn't directly load the Program Counter unless you reall know what you're doing, since that is where the CPU get the address for the next instruction to execute.
+
+			LD C,3; here i am loading the register C with the fixed value 3 which is a 8-bit data item, it is not a memory address, but it is a value, not to be confused with $0003, even though they are relativtly equal
+
+			LD DE, $FF80
+			This is basically loading D with $FF and loading E with the $FF88, DE now contains the value found at memory address $FF80
+
+		Indirect Loading of Registers
+
+			time for some working out, if H memory location was %AA, and L memory location would be $BB, BB is the least significant byte, and %AA is the most significant byte, if LD reg,(HL), reg is loaded with the value from the memory location of 0x$AABB, which for example would be '4'
+
+			So when i LD D,(HL) i am loading the 8-bit register D with the 8-bit data item located in the memory address of HL
+
+			When i LD A,(BC) i am loading the accumulator from the memory address at BC
+
+		Storing Registers in Memory
+		
+		Storing register in memory are very similar to loading registers from memory
+		Rember this syntax:
+
+			LD destination, Source (What ever that comes after LD is the destnation that data is going to be store, and what ever goes after the ',' is the source of that data)
+
+			So if i was to do LD ($C000), A. i am storing the accumulator in the value of the memory location of $C000, so instead of referenceing the actual memory location that is $C000, i am actually referencing the 16-bit data value inside of $C000, and that is why it is fraised like '($C000)'
+
+			LD (HL), C
+			Same thing as before, it loads the contents of C into the address of HL, which is the 8-bit data value, not the address i am loading it into
+
+			If i wanted to store a specfic value in memory, i would have to load HL with the destination memory so i would dp, LD (HL), $8000; now that HL is now loaded into that memory location we can now load specific value into that memory address, so LD (HL), $6F, is now storing $6f in memory location $8000
+
+
+
+
+
+
+
+	
