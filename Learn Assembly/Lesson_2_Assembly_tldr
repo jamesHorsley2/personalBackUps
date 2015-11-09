@@ -122,6 +122,150 @@ Flags affected are (not The F register is the register that handles this)
 		N: reset (0)				
 		H: set according to result	
 
+16-bit Arithmetic Instructions
+
+	ADD HL, rr
+	This instruction adds the contents of register pair rr to register pair HL. rr can be any of pr, BC, DE, HL, or SP.
+
+		INC rr
+		This instruction increments the contens of register pair rr by one.rr can be any of pr, BC, DE, HL, or SP.
+
+	DEC rr
+	This instruction decrements the contents of register pair rr by one. rr can be any of pr, BC, DE, HL, or SP.
+
+	There is not use for 16 bit numbers since the GameBoy's CPU is 8-bit, and can handle 8-bit numbers more effiently
+
+Rotate and Shift Operations
+
+	RLCA
+	ROtate Left Circular Accumulator. this instruction rotates A left one bit, placing bit 7 at bit 0 AND in the Carry Flag
+	RLCA
+
+	Z: not affected
+	C: set according to result
+	N: reset (0)
+	H: reset (0)
+
+		RLC r or (HL)
+		Rotate Left Circular. this instruction rotates either register r of the byte located at the address in HL left one bit, placing bit 7 at bit 0 AND in the Carry Flag
+
+		RLC r or (HL)
+
+		Z: set according to result
+		C: set according to result
+		N: reset (0)
+		H: reset (0)
+
+	RLA
+	Rotate Left Accumulator. This Instruction rotates A left one bit placing bit 7 into the Carry flag and the contents of the Carry flag into bit 0 of A
+	RLA
+
+	Z: not affected
+	C: set according to result
+	N: reset (0)
+	H: reset (0)
+
+		RL r or (HL)
+		Rotate Left. THis instruction rotates either register r or the byte located at the address in HL left one bit, placing bit 7 into the Carry flag and the contents of the Carry flag into bit 0 of A
+		RL r or (HL)
+
+		Z: set according to result
+		C: set according to result
+		N: reset (0)
+		H: reset (0)
+
+	RRCA
+	Rotate Right Cicular Accumulator. this instruction rotates A right on bit, placing bit 0 at bit 7 AND in the Carry flag
+	RRCA
+
+	Z: not affect
+	C: set according to result
+	N: reset (0)
+	H: reset (0)
+
+		RRC r or (HL)
+		Rotate Right Circular. This instruction rotates either register r of the byte located at the address in HL right one bit, placing bit 0 at bit 7 AND in the Carry flag.
+		RRC r or (HL)
+
+		Z: set according to result
+		C: set according to result
+		N: reset (0)
+		H: reset (0)
+
+	RRA
+	Rotate Right Accumulator. this instruction rotates A right one bit, placing bit 0 into the Carry flag and the contents of the Carry flag into bit 7 of A
+	RRa
+	Z: not affected
+	C: set according to result
+	N: reset (0)
+	H: reset (0)
+
+		RR r or (HL)
+		Rotate Right. This instruction rotates either register r or the byte located at the address in HL right one bit, placing bit 0 into the Carry flag and the contents of the Carry flag into bit 7 of A.
+
+		RR r or (HL)
+
+		Z: set according to result
+		C: set according to result
+		N: reset (0)
+		H: reset (0)
+
+	SLA r or (HL)
+	Shift Left Arithmetically. THis instruction shifts either register r or the bute located at the address in HL left ont bit, placing 0 into bit 0, and placing bit 7 into the Carry flag
+	SLA r or (HL)
+
+	Z: set according to result
+	C: set according to result
+	N: reset (0)
+	H: reset (0)
+
+		SRA r or (HL)
+		SHift Right Arithmetically/ this instruction shifts either register r or the byte located at the address in HL right on bit, placing bit 0 into the Carry flag, and leaving bit 7 untouched
+		SRA r or (HL)
+
+		Z: set according to result
+		C: set according to result
+		N: reset (0)
+		H: reset (0)
+
+	SRL r or (HL)
+	Shift Right Logically. this instruction shifts either register r or the bute located at the address in HL right one bit, placing 0 into bit 7, and placing bit 0 into the carry flag.
+
+	SRL r or (HL)
+
+	Z: set according to result
+	C: set according to result
+	N: reset (0)
+	H: reset (0)
+
+Bit Manupulation
+
+	BIT b, r
+	BIT b, (HL)
+
+	BIT basically puts the bit from either the value located at HL or r, and copies it into the Z flag and, 'AND INVERTED' inverts the current bit in the Z flag, this is because a z flag can only be set when a result is Zero.
+
+	Z: set according to result
+	C: no effect
+	N: reset (0)
+	H: set (1)
+
+		SET b, r
+		SET b, (HL)
+		Sets (1) bit b in register r or the byte addressed in HL
+		no flags are affected.
+
+	
+
+
+
+
+
+
+
+
+
+
 
 
 
