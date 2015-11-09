@@ -11,7 +11,7 @@ ADD A, (HL)
 
 This is the very simple ADD instruction. It basically adds the contents of register A with the second operand places the result in A. The second operand can be either an 8-bit register r, or a single byte of immediate data n, or a byte iun memory addressed by the register pair HL.
 
-Flags affected are (not The F register is the register that handles this)
+Flags affected are (note The F register is the register that handles this)
 
 	Z: set according to result	(Zero Flag)
 	C: set according to result	(Carry Flag)
@@ -255,7 +255,7 @@ Bit Manupulation
 		Sets (1) bit b in register r or the byte addressed in HL
 		no flags are affected.
 
-	
+
 
 
 

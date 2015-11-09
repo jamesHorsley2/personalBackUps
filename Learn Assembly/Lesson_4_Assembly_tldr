@@ -1,0 +1,25 @@
+Lesson 4 Assembly tldr
+
+JUMP INSTRUCTIONS
+
+	What are jump instructions?? 
+		Jump instructions are instructions that 'jump' to a label in you code, basied on a condition in the flags inside of the F register.
+
+		Jump can also be used with out a condition, and that is called a standard jump
+
+		JP Start_Game // Standard jump with no condition
+		JP Z, Start_Game // Standard jump with a Zero Flag condition, checks to see if Z flag is Filled, if the z flag is filled it will jump to Start_Game
+
+		Conditions that can be used in the Jump instruction are (C (CARRY FLAG), NC( NO CARRY FLAG), Z (ZERO), and NZ (NOT ZERO))
+
+		Example of Jump instruction in code
+
+		IS_LIVES_ZERO:
+
+		LD HL, Lives  < lives is set to a constant 16-bit address
+		LD A, (HL)	< Accumulator gets the value of lives at the memory location
+		CP $00 						< CP compares A to the value $00, if it is $00 or 									less, if = 0, z flag set
+		JP Z,Some_Other_Label 		< jumps to some other label if z-flag is set
+		NOP 						< Cpu wuld contine here if the z flag was 0
+
+

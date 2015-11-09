@@ -1,1 +1,87 @@
 Lesson 3 Assembly tldr
+
+General Purpose Arithmetic & CPU Control
+	
+	DAA
+	THis is the Decimal Adjust Accumulator instruction. it converts the value in A into a packed BCD (binary coded decimal) number. this instruction is used about as often as you'll win the lottery, so i won't detail it
+	Flags affected are:
+
+	Z: set according to result
+	C: set according to result
+	N: reset (0)
+	H: set according to result
+
+		CPL
+		CPL is COomPlement A. It basically takes A and applies a one's complement. which, 'i believe is just inverting all the bits. EG: $02 would end up as $FD'
+		Flags affected
+
+		Z: no effect
+		C: no effect
+		N: set (1)
+		H: set (1)
+
+	SWAP r or (HL)
+	This instruction swaps the high and low nybble's of A. SO $F0 becomes $0F, etc.
+	Flags affected
+
+	Z: set according to result
+	C: reset (0)
+	N: reset (0)
+	H: reset (0)
+
+		SCF
+		Set Carry Flag - Simply sets the carry flag (CY=1)
+		Z: no effect
+		C: set (1)
+		N: reset (0)
+		H: reset (0)
+
+	NOP
+	No Operation - CPU does nothing for 1 instruction cycle.
+	Flags affected:
+
+	Z: no effect
+	C: no effect
+	N: no effect
+	H: no effect
+
+		HALT
+		HALT's the CPU until an interrupt occurrs. During HALT, the CPU power consumption is reduced. It's generally pretty smart to place two NOP's after a HALT due to a hardware bug.
+		Flags affected:
+
+		Z: no effect
+		C: no effect
+		N: no effect
+		H: no effect
+
+	STOP
+	STOP's the CPU. THe only way to start the CPU again is to turn of the GB and turn it back on, OR if using STOP on a GBC, it can be used to toggle the CPU speed (more in anouther lesson)
+	Flags affected:
+
+	Z: no effect
+	C: no effect
+	N: no effect
+	H: no effect
+
+		DI
+		Disable Interrupts. Turns off all hardware interrupts. Use this if you want to eun a piece of code and have it run uninterupted
+		Flags affected:
+
+		Z: no effect
+		C: no effect
+		N: no effect
+		H: no effect
+
+	EI
+	Enable Interrupts. Enables hardware interrupts to occur.
+	Flags affected:
+
+	Z: no effect
+	C: no effect
+	N: no effect
+	H: no effect
+
+
+
+
+
